@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="3" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -665,7 +665,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -736,7 +736,7 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
@@ -787,7 +787,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -875,7 +875,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -950,7 +950,7 @@
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -981,7 +981,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -1061,9 +1061,9 @@
           </modifierGroups>
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -1130,8 +1130,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1151,6 +1151,7 @@
               <modifiers>
                 <modifier type="set" field="606d-344a-bc3d-9dce" value="5&quot;"/>
                 <modifier type="set" field="a56f-38ae-3917-aadc" value="4+"/>
+                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -1164,9 +1165,9 @@
           </modifierGroups>
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -1230,7 +1231,7 @@
         <categoryLink id="d286-475d-8faf-7fd1" name="MK X Gravis" hidden="false" targetId="8438-9607-67d0-a3e3" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6690-dae8-1ba2-9454" name="Techmarine" hidden="false" collective="false" import="true" type="unit">
@@ -2310,7 +2311,7 @@
         <entryLink id="d324-0f97-6027-d9d0" name="Dreadnought Ranged Weapon" hidden="false" collective="false" import="true" targetId="0c52-4d9c-2be4-6e13" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8678-7b89-1980-47b2" name="Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2393,7 +2394,7 @@
         <entryLink id="4da1-212b-1811-9156" name="Dreadnought Combat Weapon" hidden="false" collective="false" import="true" targetId="fb61-3949-01d3-0d43" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2b9-dbc7-a71c-6665" name="Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -2467,7 +2468,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -2494,7 +2495,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -2523,7 +2524,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4e-6f5f-a14a-573b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="09b1-07a6-4582-5cfd" name="Heavy Onslaught Gattling Cannon" hidden="false" collective="false" import="true" targetId="0c51-98df-45c7-060a" type="selectionEntry"/>
+            <entryLink id="09b1-07a6-4582-5cfd" name="Heavy Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="0c51-98df-45c7-060a" type="selectionEntry"/>
             <entryLink id="b4fa-1874-8d67-4103" name="Macro Plasma Incinerator" hidden="false" collective="false" import="true" targetId="c155-f8af-a649-6407" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -13312,7 +13313,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="4b34-8e41-e033-a17b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1535-dab4-2aea-8137" name="Ancient In Terminator Armour" hidden="false" collective="false" import="true" type="unit">
@@ -13430,9 +13431,9 @@ otherwise, place one blast marker next to it.</characteristic>
           </modifierGroups>
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -13499,6 +13500,7 @@ otherwise, place one blast marker next to it.</characteristic>
               <modifiers>
                 <modifier type="set" field="606d-344a-bc3d-9dce" value="5&quot;"/>
                 <modifier type="set" field="a56f-38ae-3917-aadc" value="4+"/>
+                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="3"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -13512,9 +13514,9 @@ otherwise, place one blast marker next to it.</characteristic>
           </modifierGroups>
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -14137,7 +14139,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
         <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-        <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+        <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
         <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -14189,8 +14191,8 @@ otherwise, place one blast marker next to it.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
         <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
