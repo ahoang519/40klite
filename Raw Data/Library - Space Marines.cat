@@ -4953,7 +4953,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1200-66d3-5d41-350a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8c28-052a-acfe-1c70" name="Deathwind Launcher" hidden="false" collective="false" import="true" targetId="c225-2e11-c8fc-d824" type="selectionEntry"/>
+            <entryLink id="8c28-052a-acfe-1c70" name="Deathwind Launcher" hidden="false" collective="false" import="true" targetId="c225-2e11-c8fc-d824" type="selectionEntry">
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="e5bb-1708-985e-73de" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
