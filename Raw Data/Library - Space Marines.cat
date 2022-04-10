@@ -13635,14 +13635,9 @@ otherwise, place one blast marker next to it.</characteristic>
               </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f796-4636-603d-0a34" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
+              </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="3.0">
               <conditions>
@@ -13744,14 +13739,9 @@ otherwise, place one blast marker next to it.</characteristic>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f796-4636-603d-0a34" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
+              </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
               <conditions>
