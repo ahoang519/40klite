@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="3" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="4" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -2063,7 +2063,7 @@
         <entryLink id="0041-cd53-dcf3-9d00" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6962-3f8f-63d3-803c" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" type="unit">
@@ -3597,7 +3597,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="b7b4-b5c8-a83f-77e6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad0d-f930-ae7f-f255" name="Blastmaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -3964,7 +3964,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="897c-809d-f1b1-9a74" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4ce-9e34-70f0-5ae7" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
@@ -4166,7 +4166,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="8c3c-12f7-a6be-868d" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="0275-bff0-2031-c52e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb4c-7116-4f16-b27e" name="Force Weapon " hidden="false" collective="false" import="true" type="upgrade">
@@ -4422,17 +4422,17 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
     </selectionEntry>
     <selectionEntry id="ed66-68de-c8bb-af54" name="Chaos Spawn" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="4.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="9.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="11.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="15.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="atLeast"/>
           </conditions>
@@ -4571,7 +4571,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -4602,7 +4602,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -4637,9 +4637,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -4664,7 +4664,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="49cf-70b3-3b87-be24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c977-6ee2-730c-59f6" name="Forgefiend" hidden="false" collective="false" import="true" type="unit">
@@ -4768,7 +4768,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4778,7 +4778,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="60d3-fedb-9555-bb65" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bea-15a3-ca58-e113" name="Hades Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5197,7 +5197,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="f398-6272-84b1-da27" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92bd-5224-16c2-5754" name="Heldrake" hidden="false" collective="false" import="true" type="unit">
@@ -5240,8 +5240,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-air</characteristic>
               </characteristics>
             </profile>
@@ -5274,7 +5274,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="37e2-b803-64a8-4b03" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d31e-96b7-567b-db1d" name="Plague Marines" hidden="false" collective="false" import="true" type="unit">
@@ -5334,7 +5334,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7c3c-02b2-12b4-a974" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5352,7 +5352,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d891-aed0-b1e7-333a" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5370,7 +5370,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1af0-bf0b-c3eb-1e81" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5388,7 +5388,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5499,7 +5499,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="29e7-e10b-7092-631b" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5517,7 +5517,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d8a-efe9-816d-dc65" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5535,7 +5535,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="52.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd69-7a33-dbd6-b922" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5553,7 +5553,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5761,7 +5761,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d447-61e1-06a3-67d5" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5779,7 +5779,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3e8d-1bfb-c449-8b1d" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5797,7 +5797,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ce9-6f6b-5db5-ee70" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5815,7 +5815,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
