@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Heretic Astartes" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Heretic Astartes" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -804,7 +804,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -915,7 +915,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -930,7 +930,7 @@
         <entryLink id="abec-48a5-d4ce-7dcc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e60-26b8-110a-7b4c" name="Chaos Hellwright on Dark Abeyant" hidden="false" collective="false" import="true" type="unit">
@@ -1172,7 +1172,7 @@
         <entryLink id="2632-d817-4348-efc2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b28b-28bd-fd5c-ff7f" name="Lord Discordant on Helstalker" hidden="false" collective="false" import="true" type="unit">
@@ -1182,7 +1182,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -1222,29 +1222,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="378b-bf70-44e0-ffce" name="Helstalker&apos;s Bladed Limbs" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9cf-7ceb-8977-ea03" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd3-e62d-b576-d578" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a4d1-eb41-adac-c506" name="Helstalker&apos;s Bladed Limbs" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -1271,7 +1250,7 @@
         <entryLink id="9a8e-996a-83be-371b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcfd-ac95-21bd-1407" name="Master of Possession" hidden="false" collective="false" import="true" type="unit">
@@ -1308,7 +1287,7 @@
         <entryLink id="43dd-a9ea-4a4b-be4a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="962f-8f89-5ca7-2f65" name="Abaddon the Despoiler" hidden="false" collective="false" import="true" type="unit">
@@ -1321,15 +1300,15 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="1e1d-950a-1edc-e88d" name="Lord of the Black Legion" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls for attacks made by friendly BLACK LEGION units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls of 1 for attacks made by friendly HERETIC ASTARTES units whilst they are within 6&quot; of this unit. You can re-roll all hit rolls for friendly BLACK LEGION units while they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="0360-d8e5-f4ef-c976" name="Mark of Chaos Ascendant" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1339,7 +1318,7 @@
         </profile>
         <profile id="40cd-0b0c-a6a9-65b1" name="Dark Destiny" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When assigning blast markers, only place additional small blasts instead of substituting large blasts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1376,7 +1355,7 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1389,7 +1368,7 @@
         <entryLink id="8b40-1f05-441e-bf35" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="60b8-432b-96a5-491b" name="Haarken Worldclaimer" hidden="false" collective="false" import="true" type="unit">
@@ -1508,7 +1487,7 @@
             <categoryLink id="256a-4cde-1da4-fe5b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7644-3890-2895-8366" name="Daemonic Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1589,7 +1568,7 @@
         <entryLink id="4b0e-7ce5-7a6a-7677" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38c6-7edc-fa08-2d82" name="Dark Apostle" hidden="false" collective="false" import="true" type="unit">
@@ -1638,7 +1617,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -1662,7 +1641,7 @@
         <entryLink id="2fbf-34a2-5717-b9df" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="510a-2904-aac4-1cce" name="Warpsmith" hidden="false" collective="false" import="true" type="unit">
@@ -1702,7 +1681,7 @@
         <entryLink id="088c-af5e-db0c-9816" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4528-413f-4697-b3fc" name="Exalted Champion" hidden="false" collective="false" import="true" type="unit">
@@ -1761,7 +1740,7 @@
         <entryLink id="6a22-4b57-93bc-68b3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf6d-bc14-89ad-091f" name="Fabius Bile" hidden="false" collective="false" import="true" type="unit">
@@ -1841,7 +1820,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="218a-3d32-8b3a-d5f5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98af-f691-a660-7501" name="Huron Blackheart" hidden="false" collective="false" import="true" type="unit">
@@ -1854,7 +1833,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -1895,7 +1874,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -1923,7 +1902,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="c926-df82-4cfa-c4dc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d156-9638-9ec3-55d5" name="Khorne Berserkers" hidden="false" collective="false" import="true" type="unit">
@@ -1980,7 +1959,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e011-f130-018b-c66d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1998,7 +1977,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5aaf-d41f-640f-9c37" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2016,7 +1995,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a35-20a8-4f18-6226" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2034,7 +2013,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2134,7 +2113,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2873-84ed-46a9-9090" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2152,7 +2131,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aada-774a-2581-5dcf" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2170,7 +2149,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d93-2eda-2543-c2ca" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2188,7 +2167,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2238,7 +2217,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4c38-d389-5575-2bee" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2256,7 +2235,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2397,7 +2376,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0"> x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -2431,7 +2410,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="417e-572d-121b-7120" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2449,7 +2428,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="34.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2564,7 +2543,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
             <entryLink id="d22a-462d-79fa-e82c" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2630,7 +2609,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="e5b1-2685-cd1f-13a6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5031-c476-9dc3-3f9c" name="Chaos Space Marines" hidden="false" collective="false" import="true" type="unit">
@@ -2664,7 +2643,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c48c-429b-f2d9-26eb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2682,7 +2661,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f48-cf08-eb33-473f" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2700,7 +2679,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="33.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c26-c028-bad6-d868" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2718,7 +2697,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="44.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2863,7 +2842,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4d63-f3b6-d80a-cdd5" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2881,7 +2860,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="15b1-dd46-c5c0-af65" name="9 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2899,7 +2878,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="45.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2962,7 +2941,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ad1-f402-e6f5-22fb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2980,7 +2959,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="55c6-a4c9-4296-8e58" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2998,7 +2977,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3061,7 +3040,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a683-f93e-b913-233a" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3079,7 +3058,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3145,7 +3124,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3205,7 +3184,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -3275,7 +3254,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="f100-8032-78a6-d49c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7145-43ba-3475-5010" name="Obliterators" hidden="false" collective="false" import="true" type="unit">
@@ -3358,7 +3337,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd3d-de53-a53d-b63f" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3376,7 +3355,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a2f-8820-efae-7313" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3394,7 +3373,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3654,7 +3633,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -3737,7 +3716,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="bbd3-5e3a-82de-f8ae" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c649-1195-a01a-1f27" name="Kharn the Betrayer" hidden="false" collective="false" import="true" type="unit">
@@ -3749,8 +3728,8 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -3791,15 +3770,12 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">2+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="35a0-19df-d12a-6f29" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -3809,7 +3785,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="cc25-b905-4ff1-91b3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ba9-3e73-c2ec-32fe" name="Chaos Lord on Daemonic Mount" hidden="false" collective="false" import="true" type="unit">
@@ -3960,7 +3936,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="4506-7603-a901-47c6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a578-17fd-5940-1c4c" name="Sorcerer on Daemonic Mount" hidden="false" collective="false" import="true" type="unit">
@@ -4080,7 +4056,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="75f9-eeaf-8d4d-c330" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="dad7-a02b-7338-4929" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3586-abbc-7a9e-ad55" name="Obsidius Mallex" hidden="false" collective="false" import="true" type="unit">
@@ -4197,7 +4173,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
         <entryLink id="940a-0b7d-b473-e809" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="dad7-a02b-7338-4929" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd17-86e4-1609-fe64" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="unit">
@@ -4292,7 +4268,7 @@ characteristic by 1 for the rest of the game. A unit can only be enhanced once p
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
