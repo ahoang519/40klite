@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="3" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -678,13 +678,13 @@
     </entryLink>
     <entryLink id="1402-ee3d-8e9a-2895" name="Mawloc" hidden="false" collective="false" import="true" targetId="a030-fdd8-d837-99f7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d6cf-0410-a804-b0ab" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="e5e3-8e00-17df-f69e" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="35d1-bef1-aef0-35b5" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b9fa-ecce-5303-e36d" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="aab5-77ad-fe1a-584e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="5eb6-6add-ae09-39bb" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="4031-2cc9-bed6-7ca5" name="Mawloc" hidden="false" targetId="8e04-8f92-e3c4-ed5b" primary="false"/>
+        <categoryLink id="9afd-b17e-71e8-f1c4" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca08-6e7e-95b7-53a1" name="Trygon" hidden="false" collective="false" import="true" targetId="a9f7-475d-fe91-1c8a" type="selectionEntry">
@@ -927,7 +927,7 @@
         <entryLink id="02c7-63b5-bbfb-ca7d" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="1c1c-c3a4-49a3-481f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0df4-7963-6858-9123" name="Monstrous Rending Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -1068,7 +1068,7 @@
         <entryLink id="8b22-e9c9-b1a6-c09d" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="1c1c-c3a4-49a3-481f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20ca-5037-4906-b8b6" name="Monstrous Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1256,7 +1256,7 @@
         <entryLink id="d67c-f253-ff30-c11f" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="1c1c-c3a4-49a3-481f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2eab-6d96-5b70-6388" name="Tyranid Prime" hidden="false" collective="false" import="true" type="unit">
@@ -1294,7 +1294,7 @@
         <entryLink id="b364-eaae-fda7-2ddd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbeb-fc14-5d4e-5bea" name="Ranged Bio-weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1490,7 +1490,7 @@
         <entryLink id="8291-041a-5921-175c" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="1c1c-c3a4-49a3-481f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11a2-a2d7-3531-23ad" name="Claws &amp; Teeth" hidden="false" collective="false" import="true" type="upgrade">
@@ -1553,7 +1553,7 @@
         <entryLink id="b404-8349-951a-042b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f93-ef40-4b00-53e9" name="Monstrous Crushing Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -1596,7 +1596,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="acbc-8333-6f6d-8f7b" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1614,7 +1614,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="38da-e44b-0b0a-9edf" name="9 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1632,7 +1632,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1775,7 +1775,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5388-fe49-f5c7-7412" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1793,7 +1793,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1807,9 +1807,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9fc3-06cf-aaea-e1da" name="Termagants" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="3a2d-fc7d-5c19-77dc" name="Hail of Living Ammunition" hidden="false" targetId="c37a-4cf0-2748-db4c" type="profile"/>
-      </infoLinks>
       <selectionEntries>
         <selectionEntry id="c4f2-76c4-11b3-43ac" name="Termagant Melee Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1847,7 +1844,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
@@ -1865,7 +1862,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
@@ -1883,7 +1880,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
@@ -1922,8 +1919,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1967,13 +1964,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dc2e-53d8-8324-164b" name="Hormagaunts" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="e7df-604c-61b9-80f8" name="Hungering Swarm" publicationId="a37b-2844-afcc-f4eb" page="12" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit contains 10 models, re-roll wound rolls of 1 for attacks made with melee weapons by this unit. If this unit contains 20 models, re-roll wound rolls of 1-2 for attacks made with melee weapons by this unit. If this unit contains 30 models, re-roll wound rolls of 1-3 for attacks made with melee weapons by this unit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe95-526f-0e58-3709" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="45b0-7131-3560-5719">
           <constraints>
@@ -2202,7 +2192,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f507-5c2e-834a-7e9f" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2220,7 +2210,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2396,7 +2386,7 @@
         <entryLink id="c4d5-8beb-8f27-d9f9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="999b-1670-1e08-7d36" name="Flesh Hooks" hidden="false" collective="false" import="true" type="upgrade">
@@ -2546,10 +2536,10 @@
               <profiles>
                 <profile id="e578-dc2d-d517-33f9" name="Zoanthropes (3 models)" publicationId="a37b-2844-afcc-f4eb" page="18" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -2557,14 +2547,14 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bd30-845e-509a-d525" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="e0c8-f01f-88a0-4119" name="Zoanthropes (6 models)" publicationId="a37b-2844-afcc-f4eb" page="18" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -2575,7 +2565,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2614,8 +2604,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">6&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
               </characteristics>
             </profile>
@@ -2636,7 +2626,7 @@
         <entryLink id="4114-b5c1-2190-f75c" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="1c1c-c3a4-49a3-481f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc60-d40b-9e2c-6b86" name="Venomthropes" hidden="false" collective="false" import="true" type="unit">
@@ -2699,36 +2689,36 @@
               <profiles>
                 <profile id="7650-80b1-91d8-f167" name="Venomthropes (3 models)" publicationId="a37b-2844-afcc-f4eb" page="20" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d819-835e-2a9e-eb01" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="64f3-c260-a30a-d75f" name="Venomthropes (6 models)" publicationId="a37b-2844-afcc-f4eb" page="20" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2963,11 +2953,6 @@
     </selectionEntry>
     <selectionEntry id="7c00-8d3e-7a44-6cf8" name="Gargoyles" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="7b1b-5ae9-cd5a-8b59" name="Hail of Living Ammunition" hidden="false" targetId="c37a-4cf0-2748-db4c" type="profile">
-          <modifiers>
-            <modifier type="set" field="page" value="23"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="2a04-d14c-aaab-afb1" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -3007,7 +2992,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
@@ -3015,7 +3000,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="efdc-3f74-ad24-02c9" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3033,7 +3018,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3212,7 +3197,7 @@
         <entryLink id="fb38-e7b7-025b-cecd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c686-b1e9-381c-8aa3" name="Mucolid Spores" hidden="false" collective="false" import="true" type="unit">
@@ -3472,7 +3457,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3556,7 +3541,7 @@
         <entryLink id="bf61-78c1-1177-a35e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac59-4e06-8ea9-9654" name="Biovores" hidden="false" collective="false" import="true" type="unit">
@@ -3907,7 +3892,7 @@
         <entryLink id="a1b2-68a9-6edd-0090" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4446-9354-381b-f7c3" name="Spine Banks" hidden="false" collective="false" import="true" type="upgrade">
@@ -4134,19 +4119,19 @@
         <infoLink id="f5f6-976f-13a2-174c" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="58d6-c713-a816-7846" name="Distensible Jaws" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="58d6-c713-a816-7846" name="Mawloc Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07f1-ae77-0795-3163" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4575-64c6-8d18-c641" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a5d8-6892-2f20-f545" name="Distensible Jaws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="a5d8-6892-2f20-f545" name="Mawloc Scything Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -4157,16 +4142,10 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7464-855d-80f9-2b58" name="Scything Talons" hidden="false" collective="false" import="true" targetId="64a6-397a-7fd6-1742" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac1-c710-db1c-13cc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0005-5f3a-2e31-29fd" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="f2f1-bbd1-8645-5da0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9f7-475d-fe91-1c8a" name="Trygon" hidden="false" collective="false" import="true" type="unit">
@@ -4219,7 +4198,7 @@
         <entryLink id="3a60-5af8-1e29-f969" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d96-c482-e632-6725" name="Trygon Prime" hidden="false" collective="false" import="true" type="unit">
@@ -4272,7 +4251,7 @@
         <entryLink id="3589-6134-ec87-e053" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f42-a1d3-985d-e444" name="Tyrannocyte" hidden="false" collective="false" import="true" type="unit">
@@ -4750,7 +4729,7 @@
         </profile>
         <profile id="57cc-c933-35cf-8a80" name="Toxic Miasma" publicationId="5101-ac41-4666-a01a" page="2" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, roll one D6 for each unit within 6&quot; of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, roll one D6 for each unit within 6&quot; of any enemy units with this ability; on a 6+ place one blast marker next to the unit being rolled for.</characteristic>
           </characteristics>
         </profile>
         <profile id="4a2a-7e82-ae2b-8275" name="Shrouding Spores" publicationId="5101-ac41-4666-a01a" page="2" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -5101,7 +5080,7 @@
         <entryLink id="3325-0a47-7d42-4078" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfc8-23b4-6714-4703" name="Scythed Hierodule" hidden="false" collective="false" import="true" type="unit">
