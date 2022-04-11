@@ -267,33 +267,31 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="09fa-ab05-7be5-b266" name="Scout Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4977-d2e0-dafa-1e8a" name="Scout Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="e40f-2759-3cd2-e9c1" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
-        <infoLink id="faf3-2364-b491-0a17" name="Marine Profile" hidden="false" targetId="9fd5-e263-b9aa-02b7" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Scout Squad"/>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="09fa-ab05-7be5-b266" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="ddfe-6a9e-32c1-a51c" value="1"/>
-                <modifier type="increment" field="7c7f-f763-1f39-410c" value="1"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
+        <infoLink id="82ad-ea9b-4342-518f" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2308-86d3-70a0-273f" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="85af-351a-e6f7-1e80" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="47b0-88c7-eb79-db50" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="050a-7655-3069-7a00" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="1d17-4f17-4f23-5839" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="e64f-a8f2-30fe-e520" name="Scout" hidden="false" targetId="27c2-0764-4952-e1de" primary="false"/>
         <categoryLink id="511b-152c-672f-4d22" name="Scout Squad" hidden="false" targetId="625f-e477-e807-1451" primary="false"/>
+        <categoryLink id="2a33-5c9f-c2e9-f9e4" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="54a6-a0a0-d093-62d5" name="Heavy Weapon" hidden="false" collective="false" import="true">
@@ -305,11 +303,17 @@
               <modifiers>
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
               </modifiers>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="e8b0-75b3-40b4-bbcd" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
               </modifiers>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -323,9 +327,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8428-b1f7-34d0-4c34" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="a6b5-9ded-9845-fd0a" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
-              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="6696-5594-d73a-6128" name="Sniper Rifles" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -339,7 +340,7 @@
                         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                         <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sniper</characteristic>
                       </characteristics>
                     </profile>
@@ -361,7 +362,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="522d-a069-6dc7-4d34" name="Scout Weapons &amp; Combat Knifes" hidden="false" collective="false" import="true" type="upgrade">
@@ -381,7 +382,7 @@
                         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
                         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                         <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                       </characteristics>
                     </profile>
@@ -726,7 +727,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b0f-d313-fbcc-8c90" name="Crozius Arcanum" hidden="false" collective="false" import="true" type="upgrade">
@@ -838,7 +839,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="791d-6d90-4c77-c0ed" name="Librarian" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -939,7 +940,7 @@
         <entryLink id="05cc-c598-63ba-8746" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="09cb-8e0f-f6a5-f74d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a00-30e2-127d-385a" name="Force Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1011,7 +1012,7 @@
         <entryLink id="7839-5a38-e8cc-6f19" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d44c-e9c9-d9b3-05f5" name="Phobos Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1116,7 +1117,7 @@
         <entryLink id="0440-8595-62cc-3eb8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a85-1077-c8ae-f16b" name="Master-crafted Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1220,7 +1221,7 @@
         <entryLink id="3f3b-4fb3-02e8-326e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6200-8ffc-5988-6301" name="Gravis Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1443,7 +1444,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1675,7 +1676,7 @@
             <entryLink id="34de-3d0c-dd86-e3f4" name="Phobos Armor" hidden="false" collective="false" import="true" targetId="d44c-e9c9-d9b3-05f5" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1828,7 +1829,7 @@
         <entryLink id="e419-6c95-214c-4779" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4991-016c-9c24-34d3" name="Company Ancient" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1917,7 +1918,7 @@
         <entryLink id="f04d-dbe9-df65-6c8a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca50-b2c7-56ad-f6a3" name="Primaris Ancient" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1959,8 +1960,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -1974,7 +1975,7 @@
         <entryLink id="d767-069b-6680-a52b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdaa-fa38-e1f3-0555" name="Company Champion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2001,7 +2002,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -2032,7 +2033,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -2085,7 +2086,7 @@
         <entryLink id="2254-ede1-8202-c173" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2472-1127-ec05-97d0" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2136,7 +2137,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2248,7 +2249,7 @@
         <entryLink id="2c25-251a-9dab-c1f6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a14-b70d-e4b1-8209" name="Special Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2458,7 +2459,7 @@
         <entryLink id="e0dd-a697-6a02-d5b7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d377-d88e-e86a-4c9d" name="Redemptor Dreadnought" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2693,7 +2694,7 @@
         <entryLink id="4c9a-afea-f8ba-f6a5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30bf-60b7-7f9f-7a2c" name="Reiver Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3210,7 +3211,7 @@
         <entryLink id="c0fc-0d07-c4a8-dba0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db91-485c-ca74-9d54" name="Devastator Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3535,15 +3536,15 @@
     </selectionEntry>
     <selectionEntry id="d149-41f2-be2f-2236" name="Whirlwind" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0164-763e-1475-685c" name="Stalker" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="0164-763e-1475-685c" name="Whirlwind" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3566,9 +3567,9 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage</characteristic>
               </characteristics>
             </profile>
@@ -3586,7 +3587,7 @@
         <entryLink id="4a83-a5ae-2f0a-8e97" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="380b-365b-f724-e677" name="Predator" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -4100,7 +4101,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfac-55c2-f1a4-838a" name="Assault Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4141,7 +4142,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f48-32f9-4de9-c2a4" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4166,7 +4167,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4338,17 +4339,11 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="380e-a443-51c6-dbdf" type="max"/>
               </constraints>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-              </costs>
             </entryLink>
             <entryLink id="656b-1fa9-7ae7-f294" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1614-fe6b-455f-fa23" type="max"/>
               </constraints>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4680,17 +4675,15 @@
             <entryLink id="bf3f-daa0-bef0-5788" name="Plasma Exterminators" hidden="false" collective="false" import="true" targetId="5496-02cf-9377-7f0b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3687-3bf4-65b2-e78a" name="3 - 6 models" hidden="false" collective="false" import="true" targetId="fd57-db55-b1b1-9b16" type="selectionEntryGroup">
+        <selectionEntryGroup id="a75d-2752-0e05-871e" name="Unit Size" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f33-7fc3-1941-837d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac36-a426-6912-bca8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90b-9619-956f-4ec4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122f-0684-7009-6d47" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6242-19d2-d624-c934" name="Inceptors (3 models)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1dd0-7fc1-8ca1-5525" name="Inceptors (3 models)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="701c-c006-c8aa-07c6" name="Inceptor Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="c3ef-e04c-30ba-2bfb" name="Inceptor Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
@@ -4703,12 +4696,12 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a23a-34f1-3667-f954" name="Inceptors (6 models)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6dd3-5eb0-e1d9-8240" name="Inceptors (6 models)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6df6-c61f-2ebe-59ce" name="Inceptor Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="cab2-6180-8e1a-26ca" name="Inceptor Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
@@ -4721,11 +4714,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </entryLink>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="a8c5-038f-40d9-9f66" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -4953,7 +4948,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1200-66d3-5d41-350a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8c28-052a-acfe-1c70" name="Deathwind Launcher" hidden="false" collective="false" import="true" targetId="c225-2e11-c8fc-d824" type="selectionEntry"/>
+            <entryLink id="8c28-052a-acfe-1c70" name="Deathwind Launcher" hidden="false" collective="false" import="true" targetId="c225-2e11-c8fc-d824" type="selectionEntry">
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="e5bb-1708-985e-73de" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -5663,13 +5662,6 @@
     <selectionEntry id="768d-883e-96a7-c2ce" name="Terminator Assault Squad" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b2bf-69ca-6987-4ad9" name="Terminator Assault Squad (5 Models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <modifiers>
-            <modifier type="set" field="a56f-38ae-3917-aadc" value="3+">
-              <conditions>
-                <condition field="selections" scope="768d-883e-96a7-c2ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3661-225c-b4d1-5b0d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <modifierGroups>
             <modifierGroup>
               <conditions>
@@ -5743,7 +5735,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5844,7 +5836,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a12-28da-0fd8-ecff" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5869,7 +5861,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7930,7 +7922,7 @@
         <entryLink id="b6d4-60fe-89aa-cbd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07ed-fe1c-27d3-b5f8" name="Siege Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8199,7 +8191,7 @@
         <entryLink id="96ac-f5b0-e50e-a6a1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab53-eec6-d4be-ab28" name="Chaplain Venerable Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8285,7 +8277,7 @@
         <entryLink id="0436-0a39-96b2-d8d9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0321-28ba-f11e-426c" name="Relic Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -9878,7 +9870,7 @@
         <entryLink id="bad7-7d52-483d-1e59" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd52-9f38-da26-61d5" name="Whirlwind Hyperios" hidden="false" collective="false" import="true" type="unit">
@@ -9944,7 +9936,7 @@
         <entryLink id="fb50-27b5-c08b-5bc3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3b9-7176-b67a-0531" name="Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" type="unit">
@@ -11068,7 +11060,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="4624-9cbc-a975-ab94" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a74b-6c63-1601-9920" name="Relic Sicaran Arcus Strike Tank" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -11286,7 +11278,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b69-42ae-16e3-cfd2" name="Lancer Laser Destroyer" hidden="false" collective="false" import="true" type="upgrade">
@@ -11368,7 +11360,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1d9-b865-21d1-7019" name="Gladiator" hidden="false" collective="false" import="true" type="upgrade">
@@ -11472,7 +11464,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e0e-9bb8-531c-7e41" name="Twin Las-talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -11544,7 +11536,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1581-ba2f-1732-04c6" name="Forge Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -11683,34 +11675,16 @@ otherwise, place one blast marker next to it.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="8b8e-3572-17dc-ae6f" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb40-d320-0bb8-3c2f" name="Unit Size" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbdf-71ff-ee69-0591" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="495e-c79c-350f-0a72" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c0b-da15-7812-3bed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7118-88ac-ce92-67fe" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="016e-8464-6798-b035" name="Heavy Intercessor Squad (5 models)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f81d-488f-8931-5754" name="Heavy Intercessor Squad (10 models)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="8d01-9fbb-4cfd-2344" name="Heavy Intercessor Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8e64-4fc3-0928-fe26" name="Heavy Intercessor Squad (10 models)" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="60fe-bb9f-ae83-db7f" name="Heavy Intercessor Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="c859-5af0-fca7-d041" name="Heavy Intercessor Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
@@ -11723,11 +11697,31 @@ otherwise, place one blast marker next to it.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="34.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b4fc-f08a-0db4-405c" name="Heavy Intercessor Squad (5 models)" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b1d4-b121-ed37-2ccf" name="Heavy Intercessor Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </entryLink>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="5606-5aed-19fb-99ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -12065,7 +12059,7 @@ otherwise, place one blast marker next to it.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -12080,7 +12074,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="9f3e-05b7-3520-32d5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="778d-e22c-27cb-5b1b" name="Outrider Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -12159,7 +12153,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="36be-c92c-7696-fc15" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a45-0fb7-b6fa-db42" name="Invader ATV Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -12172,7 +12166,7 @@ otherwise, place one blast marker next to it.</characteristic>
               </conditions>
               <modifiers>
                 <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="3"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="3"/>
+                <modifier type="set" field="7c7f-f763-1f39-410c" value="6"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -12180,7 +12174,7 @@ otherwise, place one blast marker next to it.</characteristic>
                 <condition field="selections" scope="9a45-0fb7-b6fa-db42" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39cc-5900-f296-f3ee" type="equalTo"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="2"/>
+                <modifier type="set" field="7c7f-f763-1f39-410c" value="4"/>
                 <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
               </modifiers>
             </modifierGroup>
@@ -12190,7 +12184,7 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -12217,7 +12211,7 @@ otherwise, place one blast marker next to it.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -13388,7 +13382,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="99c2-ef33-2070-bc2d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09cb-8e0f-f6a5-f74d" name="Psychic Attack" hidden="false" collective="false" import="true" type="upgrade">
@@ -13504,7 +13498,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="3bd1-dab3-6e0a-625d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1109-abb9-654b-9820" name="Primaris Chapter Master" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -13587,7 +13581,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="df92-f5e9-968e-d703" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -13600,13 +13594,13 @@ otherwise, place one blast marker next to it.</characteristic>
       <entryLinks>
         <entryLink id="12ba-b224-c129-7243" name="5 Models" hidden="false" collective="false" import="true" targetId="b91b-0612-96f4-e29d" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="7.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="13.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94f-e05a-03c1-9057" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa96-14a7-0694-f560" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6ce-39ae-08f2-df62" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
@@ -13625,27 +13619,17 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="4.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="9.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c747-0503-c0a5-151e" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f796-4636-603d-0a34" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="3.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="625f-e477-e807-1451" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="11.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -13655,7 +13639,7 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="11.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -13665,20 +13649,6 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="5.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51a9-73ff-29ec-793c" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="59c0-a118-fb6b-177e" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="338d-ca45-0060-05bd" name="10 Models" hidden="false" collective="false" import="true" targetId="b387-d691-5e15-e5cc" type="selectionEntry">
-          <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -13689,23 +13659,32 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="14.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94f-e05a-03c1-9057" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="338d-ca45-0060-05bd" name="10 Models" hidden="false" collective="false" import="true" targetId="b387-d691-5e15-e5cc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa96-14a7-0694-f560" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94f-e05a-03c1-9057" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6ce-39ae-08f2-df62" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51a9-73ff-29ec-793c" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="59c0-a118-fb6b-177e" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="26.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d67-81da-d95d-adb3" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9c-2492-402c-a0be" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa96-14a7-0694-f560" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6ce-39ae-08f2-df62" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
@@ -13724,12 +13703,22 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="22.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d67-81da-d95d-adb3" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9c-2492-402c-a0be" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="18.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c747-0503-c0a5-151e" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="22.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="32.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -13739,17 +13728,12 @@ otherwise, place one blast marker next to it.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f796-4636-603d-0a34" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01f6-1948-b1ea-e57a" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="24.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94f-e05a-03c1-9057" type="instanceOf"/>
+              </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="625f-e477-e807-1451" type="instanceOf"/>
               </conditions>
@@ -13766,12 +13750,12 @@ otherwise, place one blast marker next to it.</characteristic>
       <entryLinks>
         <entryLink id="fbce-e35c-b948-0bd0" name="6 models" hidden="false" collective="false" import="true" targetId="8593-349a-e033-266b" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="26.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c608-6a5b-42d5-48e2" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="18.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="28.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0062-66ea-c154-299c" type="instanceOf"/>
               </conditions>
@@ -13780,12 +13764,12 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
         <entryLink id="a9ec-6432-91ba-f8bf" name="3 models" hidden="false" collective="false" import="true" targetId="973a-0f6f-0bb6-eb25" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="13.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c608-6a5b-42d5-48e2" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="9.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="14.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0062-66ea-c154-299c" type="instanceOf"/>
               </conditions>
@@ -13802,12 +13786,12 @@ otherwise, place one blast marker next to it.</characteristic>
       <entryLinks>
         <entryLink id="edf6-b1c8-d6e8-eed4" name="6 models" hidden="false" collective="false" import="true" targetId="8593-349a-e033-266b" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="30.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b757-ee1d-19d8-135c" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="14.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="24.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c66-f5e9-e3c7-4eb5" type="instanceOf"/>
               </conditions>
@@ -13816,12 +13800,12 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
         <entryLink id="3b71-ac0b-a1f9-e8d7" name="3 models" hidden="false" collective="false" import="true" targetId="973a-0f6f-0bb6-eb25" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="15.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b757-ee1d-19d8-135c" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="7.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c66-f5e9-e3c7-4eb5" type="instanceOf"/>
               </conditions>
@@ -13830,12 +13814,12 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
         <entryLink id="b5e6-c02e-365f-2645" name="9 models" hidden="false" collective="false" import="true" targetId="335a-d51a-9f6d-434c" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="30.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="45.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b757-ee1d-19d8-135c" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="21.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="36.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c66-f5e9-e3c7-4eb5" type="instanceOf"/>
               </conditions>
@@ -13852,22 +13836,22 @@ otherwise, place one blast marker next to it.</characteristic>
       <entryLinks>
         <entryLink id="4063-b429-eefe-67ab" name="2 models" hidden="false" collective="false" import="true" targetId="39cc-5900-f296-f3ee" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="14.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
               </conditions>
@@ -13876,46 +13860,46 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
         <entryLink id="0bfb-a9f5-a06e-c8a7" name="3 models" hidden="false" collective="false" import="true" targetId="973a-0f6f-0bb6-eb25" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="24.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="18.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="30.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="18.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="21.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
-              </conditions>
             </modifier>
           </modifiers>
         </entryLink>
         <entryLink id="e148-d80f-65e5-a1ed" name="1 model" hidden="false" collective="false" import="true" targetId="2d2d-bda0-50dc-b72d" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="4.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="7.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
               </conditions>
@@ -14138,7 +14122,7 @@ otherwise, place one blast marker next to it.</characteristic>
     </profile>
     <profile id="5f19-998b-04a8-c710" name="Honour or Death" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with melee weapons by this unit that target CHARACTER units.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with melee weapons by this unit that target CHARACTER units. In addition, subtract 1 from melee attacks for enemies targeting this unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="2719-a753-fc3b-aa7c" name="Command Squad Bodyguard" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">

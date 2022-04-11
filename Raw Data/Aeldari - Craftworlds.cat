@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="3" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="4" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Forge World Units not supported yet.</readme>
   <publications>
     <publication id="280a-43bb-426c-aa7c" name="Asuryani Datasheets PDF"/>
   </publications>
@@ -358,7 +359,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c8b8-daa3-7d4b-d67e" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -379,7 +380,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d8a5-1355-2bd5-9ae4" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -400,7 +401,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -410,7 +411,6 @@
         <entryLink id="baec-433d-a9f9-b6d5" name="Destructor" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="2b7e-1653-1446-44a0" type="selectionEntry"/>
         <entryLink id="c7a8-e61b-b451-db46" name="Witchblades &amp; Singing Spears" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7c60-ce87-4950-b53d" type="selectionEntry"/>
         <entryLink id="e336-0002-32fd-eeda" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="5b2f-2c5b-bc25-bf37" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="e0b5-c1ea-f062-e34c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -458,7 +458,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba72-4ef2-038d-cfa8" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -479,7 +479,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42e4-fe60-b8d3-9bc5" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -500,7 +500,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -617,7 +617,7 @@
         <entryLink id="7426-8c4b-59d6-350a" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffd8-28a3-0207-0f27" name="Illic Nightspear" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -743,7 +743,7 @@ target Necrons units.</characteristic>
         <entryLink id="506d-ec35-d88e-bcb4" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="629f-fd39-b3e9-96f0" name="Avatar of Khaine" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -833,7 +833,7 @@ target Necrons units.</characteristic>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -846,7 +846,7 @@ target Necrons units.</characteristic>
         </profile>
         <profile id="4746-a079-0415-8f71" name="Bladestorm" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by this unit and friendly Dire Avengers units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls for attacks made by this unit and friendly Dire Avengers units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -889,7 +889,7 @@ target Necrons units.</characteristic>
         <entryLink id="c286-7cf0-842b-7ff6" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3562-c0f4-6625-577d" name="Baharroth" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -915,7 +915,7 @@ target Necrons units.</characteristic>
         </profile>
         <profile id="7b18-6b68-979e-3de6" name="Blazing Fury" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by this unit and friendly Swooping Hawks units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls for attacks made by this unit and friendly Swooping Hawks units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1160,7 +1160,7 @@ target Necrons units.</characteristic>
         <entryLink id="b540-a086-1ba7-1ceb" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cf3-b3f6-b571-97de" name="Karandras" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1181,7 +1181,7 @@ target Necrons units.</characteristic>
         </profile>
         <profile id="da06-d3e9-1278-8164" name="The Shadow Hunter" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by this unit and friendly Striking Scorpion units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls for attacks made by this unit and friendly Striking Scorpion units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="c7d8-5dc5-9a7f-432c" name="Death by a Thousand Stings" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1254,7 +1254,7 @@ target Necrons units.</characteristic>
         <entryLink id="7fb3-e62b-42b8-61bc" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3de-399e-d9fe-fc95" name="Spiritseer" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1337,7 +1337,7 @@ target Necrons units.</characteristic>
         </profile>
         <profile id="cfa5-dfe1-15e4-0bba" name="The Harvester" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls of 1 for attacks made by this unit and friendly Dark Reaper units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls of attacks made by this unit and friendly Dark Reaper units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="c9dc-0c8b-8583-9c4f" name="Inescapable Death" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1399,7 +1399,7 @@ target Necrons units.</characteristic>
         <entryLink id="e36f-16bf-671e-4420" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a2e-7341-a82a-bd71" name="Howling Banshees" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1465,7 +1465,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4859-37e7-5553-eb20" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -1486,7 +1486,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1534,7 +1534,7 @@ target Necrons units.</characteristic>
         <entryLink id="fecc-c187-ab23-973b" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b2f-0889-4d9e-0a2b" name="Autarch - Warp Jump Generator" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1573,7 +1573,7 @@ target Necrons units.</characteristic>
         <entryLink id="37f0-2046-a47d-b04f" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e94-7f86-50dd-2db5" name="Autarch - Swooping Hawk Wings" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1613,7 +1613,7 @@ target Necrons units.</characteristic>
         <entryLink id="f5fc-a23f-fcfc-1b29" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9264-38a4-f7e5-b84a" name="Striking Scorpions" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -1870,7 +1870,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9966-eed9-c51a-dd82" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -1891,7 +1891,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2019,7 +2019,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="939a-4f28-e1db-c239" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2040,7 +2040,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2138,7 +2138,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d49c-5b9a-422a-728c" name="20-22 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2159,7 +2159,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2252,7 +2252,7 @@ target Necrons units.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -2288,7 +2288,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="25d2-8e94-7493-ed5c" name="16 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2309,7 +2309,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="979e-19fe-8e9c-b825" name="24 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2330,7 +2330,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2387,7 +2387,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="68cf-d120-14e1-81ff" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2408,7 +2408,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2486,7 +2486,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="98b5-9bd8-dab6-636f" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2507,7 +2507,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2558,7 +2558,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="88a8-80aa-6f28-ecb4" name="6 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2579,7 +2579,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0714-1699-059d-bf30" name="9 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2600,7 +2600,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2683,7 +2683,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7589-dbeb-0deb-3a37" name="2 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2704,7 +2704,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0a46-d102-5733-7d98" name="3 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2725,7 +2725,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2878,7 +2878,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab32-3501-56b8-67ee" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2899,7 +2899,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3082,7 +3082,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d178-5eb3-1d4b-c3ec" name="6 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3103,7 +3103,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="959f-482a-d4d6-a3f7" name="9 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3124,7 +3124,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3226,7 +3226,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d33f-4a82-3f69-e426" name="3 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3247,7 +3247,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3419,7 +3419,7 @@ target Necrons units.</characteristic>
         <entryLink id="d976-b3eb-1093-1d85" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17b5-d5aa-2c02-bcde" name="Support Weapon Battery" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -3858,7 +3858,7 @@ target Necrons units.</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3892,7 +3892,7 @@ target Necrons units.</characteristic>
         <entryLink id="602f-d103-8a15-45d3" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38fe-72be-0945-ee29" name="Wave Serpent" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -4062,7 +4062,7 @@ target Necrons units.</characteristic>
         <entryLink id="59fc-9a09-2603-a12b" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="390d-1450-f97d-9f59" name="Crimson Hunter" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -4113,7 +4113,7 @@ weapons by this unit.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4128,7 +4128,7 @@ weapons by this unit.</characteristic>
         <entryLink id="ea31-a832-1635-b973" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d02-87a0-c957-1ecb" name="Hemlock Wraithfighter" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -4193,7 +4193,7 @@ weapons by this unit.</characteristic>
         <entryLink id="3be8-a4c2-b7e9-b3e3" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="e0b5-c1ea-f062-e34c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d0a-caea-baf7-39ef" name="Wraithknight" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -4374,7 +4374,7 @@ weapons by this unit.</characteristic>
         <entryLink id="0b54-749d-f496-7481" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="acea-54ee-29d0-cabd" name="Bonesinger" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -4432,7 +4432,7 @@ weapons by this unit.</characteristic>
         <entryLink id="de25-9766-10c7-8f85" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="e0b5-c1ea-f062-e34c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6d4-6942-f926-4720" name="Autarch Weapons" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
@@ -4888,7 +4888,7 @@ weapons by this unit.</characteristic>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -4991,7 +4991,7 @@ weapons by this unit.</characteristic>
         <entryLink id="2714-02b4-66b6-c4b7" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="e0b5-c1ea-f062-e34c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="844f-aee0-9460-9665" name="Hornets" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
