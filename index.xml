@@ -2,6 +2,7 @@
 <dataIndex battleScribeVersion="2.03" name="Warhammer 40,000 Lite Edition" indexUrl="https://github.com/ahoang519/40klite/raw/master/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer 40,000 Lite Edition.gstz" dataType="gamesystem" dataId="5596-906e-5a39-fef7" dataName="Warhammer 40,000 Lite Edition" dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="Imperium - Adeptus Astartes.catz" dataType="catalogue" dataId="ba6e-f4e4-9c13-bd4c" dataName="Imperium - Adeptus Astartes" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Library - Space Marines.catz" dataType="catalogue" dataId="c56b-a784-45be-6982" dataName="Library - Space Marines" dataBattleScribeVersion="2.03" dataRevision="10"/>
   </dataIndexEntries>
 </dataIndex>
