@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="6" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="8" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="93ec-5bb0-7861-be16" name="Faction: Astra Militarum" hidden="false"/>
     <categoryEntry id="65a5-3f67-4f86-350f" name="Leman Russ" hidden="false"/>
@@ -80,7 +80,7 @@
         </profile>
         <profile id="1d11-ec12-cc65-ed69" name="Tank Commander" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If a friendly &lt;REGIMENT&gt; LEMAN RUSS unit starts a Move action within 6&quot; of this unit, that unit can be ordered to go full throttle; add 2&quot; to that unit’s Move characteristic whilst making that Move action. A unit can only go full throttle once per turn.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When placing down order tokens, you may place two order tokens down on one HEAVY unit that is not a Flyer. When activating these units, you select one of these orders to enact.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -440,8 +440,8 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -458,13 +458,16 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="7f07-f1ec-8c68-03a7" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -480,7 +483,7 @@
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -523,7 +526,7 @@
         <entryLink id="b635-80a4-cb71-b94d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61f5-ed5a-0cc2-1976" name="Shadowsword" hidden="false" collective="false" import="true" type="unit">
@@ -534,7 +537,7 @@
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -550,9 +553,9 @@
             <profile id="6354-8230-558f-6bcc" name="Volcano Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
@@ -607,7 +610,7 @@
         <entryLink id="4d34-909e-15fb-9ece" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6eb-f9a4-3a09-1eaf" name="Stormsword" hidden="false" collective="false" import="true" type="unit">
@@ -622,10 +625,10 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">3+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Siege Weapon</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Siege Weapon, Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -634,6 +637,9 @@
               <description>This weapon does not suffer any penalties for firing at obscured targets.</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="4656-eab4-624f-f288" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
