@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="13" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="15" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -1497,7 +1497,7 @@
         <entryLink id="a8b2-9398-990b-ca75" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b3b-d361-f599-8aad" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -2312,7 +2312,7 @@
         <entryLink id="d324-0f97-6027-d9d0" name="Dreadnought Ranged Weapon" hidden="false" collective="false" import="true" targetId="0c52-4d9c-2be4-6e13" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8678-7b89-1980-47b2" name="Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2395,7 +2395,7 @@
         <entryLink id="4da1-212b-1811-9156" name="Dreadnought Combat Weapon" hidden="false" collective="false" import="true" targetId="fb61-3949-01d3-0d43" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2b9-dbc7-a71c-6665" name="Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -2459,7 +2459,7 @@
         <entryLink id="e0dd-a697-6a02-d5b7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d377-d88e-e86a-4c9d" name="Redemptor Dreadnought" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2536,7 +2536,7 @@
         <entryLink id="2680-2d34-d0ed-df11" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d65-bc0e-c6d8-a54d" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3474,7 +3474,7 @@
         <entryLink id="b24e-af84-89ff-90d8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2509-4c06-781e-7771" name="Stalker" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3587,7 +3587,7 @@
         <entryLink id="4a83-a5ae-2f0a-8e97" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="380b-365b-f724-e677" name="Predator" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3630,7 +3630,7 @@
         <entryLink id="8732-245c-408e-55a9" name="Predator Sponson Weapons" hidden="false" collective="false" import="true" targetId="2cc7-f514-4a4b-2612" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b4f-6d59-d2cb-6004" name="Vindicator" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3683,7 +3683,7 @@
         <entryLink id="fb0c-a6a8-9de7-4a8d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03e6-d2f0-4433-9ecb" name="Land Raider" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3729,7 +3729,7 @@
         <entryLink id="4748-9d61-bc00-ac7f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e090-e09a-3fc2-625e" name="Land Raider Crusader" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3786,7 +3786,7 @@
         <entryLink id="974d-879c-770d-bd82" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abd4-677c-38d8-044d" name="Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -3897,7 +3897,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8578-7721-e821-d44b" name="Flamestorm Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4263,7 +4263,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4862,7 +4862,7 @@
         <entryLink id="4a5f-4468-e53e-cb8d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7621-272e-ffe5-27d8" name="Razorback" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -4910,7 +4910,7 @@
         <entryLink id="db1e-5ecc-ad3e-93d4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b41-4746-fc8a-35ce" name="Drop Pod" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -4961,7 +4961,7 @@
         <entryLink id="d046-b7be-516e-bc85" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c225-2e11-c8fc-d824" name="Deathwind Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -5049,7 +5049,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b9f-b904-e2d1-c973" name="Cerberus Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -5151,7 +5151,7 @@
         <entryLink id="6f1b-95c7-c43a-9cea" name="Icarus Weapons" hidden="false" collective="false" import="true" targetId="39ae-a3ed-eb99-567a" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81e8-4ce7-961a-737a" name="Las-talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5263,7 +5263,7 @@
         <entryLink id="08e7-5b72-ba22-79e7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c343-cc19-3a64-c7f2" name="Armoured Bulk" hidden="false" collective="false" import="true" type="upgrade">
@@ -5417,7 +5417,7 @@
         <entryLink id="5f16-aeef-5b80-04b2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ccba-47fe-1316-dc34" name="Stormstrike Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
@@ -5467,7 +5467,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5536,7 +5536,7 @@
         <entryLink id="2216-2b48-1738-3917" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0b0-6b0b-7f09-d62c" name="Terminator Squad" hidden="false" collective="false" import="true" type="unit">
@@ -6149,7 +6149,7 @@
         <entryLink id="b524-d12f-949a-d2c6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db3a-f391-4ba2-cefe" name="Repulsor Defensive Weapons System" hidden="false" collective="false" import="true" type="upgrade">
@@ -6272,7 +6272,7 @@
         <entryLink id="d197-3db9-62da-74d0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a5e-cfc0-318b-4da9" name="Deimos Pattern Vindicator Laser Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -6337,7 +6337,7 @@
         <entryLink id="881e-f282-cd67-cfd3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe60-c74c-37d0-edf3" name="Infernum Pattern Razorback" hidden="false" collective="false" import="true" type="unit">
@@ -6383,7 +6383,7 @@
         <entryLink id="a205-9c01-9b84-692e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2468-48de-617e-2258" name="Relic Land Raider Proteus" hidden="false" collective="false" import="true" type="unit">
@@ -6453,7 +6453,7 @@
         <entryLink id="d90d-56dd-f8b3-90ec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81de-15ce-d9d3-f684" name="Land Raider Helios" hidden="false" collective="false" import="true" type="unit">
@@ -6525,7 +6525,7 @@
         <entryLink id="5d1e-4f12-a501-15e6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2235-b44c-a7d2-d517" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" type="unit">
@@ -6656,7 +6656,7 @@
         <entryLink id="d223-1e34-9442-286c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c96-5e9d-5061-c166" name="Land Raider Prometheus" hidden="false" collective="false" import="true" type="unit">
@@ -6715,7 +6715,7 @@
         <entryLink id="6deb-d87e-5c9c-f489" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba17-8566-b04c-09d3" name="Land Raider Achilles" hidden="false" collective="false" import="true" type="unit">
@@ -6767,7 +6767,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="486f-3047-10d1-a12a" name="Relic Sicaran Battle Tank" hidden="false" collective="false" import="true" type="unit">
@@ -6820,7 +6820,7 @@
         <entryLink id="e606-f6d1-6cd8-9efb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f1f-08ac-f562-ee9f" name="Relic Sicaran Venator Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -6893,7 +6893,7 @@
         <entryLink id="86cc-2c10-ecf6-3020" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f9f-7190-66d2-39bf" name="Relic Sicaran Punisher Assault Tank" hidden="false" collective="false" import="true" type="unit">
@@ -6968,7 +6968,7 @@
         <entryLink id="ac42-4559-7145-de84" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68f5-0eaf-e33d-6992" name="Relic Spartan Assault Tank" hidden="false" collective="false" import="true" type="unit">
@@ -7073,7 +7073,7 @@
         <entryLink id="42ee-7226-f065-074b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="818c-71cb-91b8-14c6" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" type="unit">
@@ -7193,7 +7193,7 @@
         <entryLink id="a6d1-5fbd-1b6c-d700" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33ad-2c9d-dca2-507a" name="Relic Cerberus Heavy Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -7313,7 +7313,7 @@
         <entryLink id="ec4c-35cd-5a1d-e994" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a634-4723-ba51-60ca" name="Relic Fellblade Super-heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -7450,7 +7450,7 @@
         <entryLink id="161d-4f13-71a5-5845" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f93-c25d-2b63-2f39" name="Relic Falchion Super-heavy Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -7561,7 +7561,7 @@
         <entryLink id="cb26-aaf5-9aff-e9de" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="34.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbb9-54eb-4f59-e9dc" name="Relic Mastodon Super-heavy Siege Transport" hidden="false" collective="false" import="true" type="unit">
@@ -7621,7 +7621,7 @@
         <entryLink id="02d1-4a6c-cfe2-dde3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0975-6a9a-ebe0-2feb" name="Astraeus Super-heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -7922,7 +7922,7 @@
         <entryLink id="b6d4-60fe-89aa-cbd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07ed-fe1c-27d3-b5f8" name="Siege Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8031,7 +8031,7 @@
         <entryLink id="fd8b-863b-fdb1-3d72" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eff2-47bb-e5ab-c1a6" name="Dreadnought Inferno Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -8191,7 +8191,7 @@
         <entryLink id="96ac-f5b0-e50e-a6a1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab53-eec6-d4be-ab28" name="Chaplain Venerable Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8536,7 +8536,7 @@
         <entryLink id="86f4-7c01-68a9-d07d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="710a-fbe4-6cac-3054" name="Relic Deredeo Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8729,7 +8729,7 @@
         <entryLink id="df34-103f-3668-2cf6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a40f-f1a8-4416-b632" name="Relic Leviathan Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -8917,7 +8917,7 @@
         <entryLink id="b30e-37ec-042d-c0e1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="166d-dffc-2b66-c199" name="Meltagun" hidden="false" collective="true" import="true" type="upgrade">
@@ -9010,7 +9010,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac7c-d4c4-d0bf-8d7b" name="Relic Javelin Attack Speeder" hidden="false" collective="false" import="true" type="unit">
@@ -9094,7 +9094,7 @@
         <entryLink id="e85d-57a9-4841-bdfd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7701-7457-621e-6f84" name="Xiphon Interceptor" hidden="false" collective="false" import="true" type="unit">
@@ -9159,7 +9159,7 @@
         <entryLink id="a94b-ae20-4d4b-4263" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a66b-42aa-4c20-300b" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" type="unit">
@@ -9279,7 +9279,7 @@
         <entryLink id="9f15-2b32-da9e-3a40" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ea6-f70e-97cd-fd75" name="Storm Eagle Assault Gunship - ROC Pattern" hidden="false" collective="false" import="true" type="unit">
@@ -9383,7 +9383,7 @@
         <entryLink id="a945-2aa8-5969-614b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7afa-0a96-ea6d-7695" name="Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" type="unit">
@@ -9501,7 +9501,7 @@
         <entryLink id="74dd-07a9-c220-cbbb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0bc-b91c-1598-39d7" name="Caestus Assault Ram" hidden="false" collective="false" import="true" type="unit">
@@ -9602,7 +9602,7 @@
         <entryLink id="7c0e-6054-b8e4-8482" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2db-2d39-b71f-baad" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" type="unit">
@@ -9824,7 +9824,7 @@
         <entryLink id="1524-8fd7-d0c7-f39b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="46.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e5c-499e-a68c-ce86" name="Damocles Command Rhino" hidden="false" collective="false" import="true" type="unit">
@@ -9870,7 +9870,7 @@
         <entryLink id="bad7-7d52-483d-1e59" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd52-9f38-da26-61d5" name="Whirlwind Hyperios" hidden="false" collective="false" import="true" type="unit">
@@ -9936,7 +9936,7 @@
         <entryLink id="fb50-27b5-c08b-5bc3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3b9-7176-b67a-0531" name="Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" type="unit">
@@ -10001,7 +10001,7 @@
         <entryLink id="a873-1d7b-bd6a-b3c2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3d0-2acc-450c-fba7" name="Rapier Carrier" hidden="false" collective="false" import="true" type="unit">
@@ -10066,7 +10066,7 @@
         <entryLink id="f93c-ca7f-6171-4cc4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="add9-d359-0c25-b73c" name="Quad Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -10260,7 +10260,7 @@
         <entryLink id="bef9-a890-a411-3cfd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8753-faf5-ddf9-6563" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" type="unit">
@@ -10339,7 +10339,7 @@
         <entryLink id="f21e-cc90-7d32-487f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0ad-b807-9b3a-5075" name="Castellum Stronghold - Tacticus Bunker" hidden="false" collective="false" import="true" type="unit">
@@ -10533,7 +10533,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e945-5416-79aa-5b03" name="Castellum Air Defence Missiles" hidden="false" collective="false" import="true" type="upgrade">
@@ -10645,7 +10645,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="098d-bedf-91b5-c61b" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -10892,7 +10892,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed0d-c99c-3497-a919" name="Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -11060,7 +11060,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="4624-9cbc-a975-ab94" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a74b-6c63-1601-9920" name="Relic Sicaran Arcus Strike Tank" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -11130,7 +11130,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="bf85-b395-6771-2d30" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b61-539d-610c-1928" name="Relic Sicaran Omega Tank Destroyer" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -11203,7 +11203,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="d13e-75b3-e4ed-e886" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7171-4360-380d-58d9" name="Gladiator Lancer" hidden="false" collective="false" import="true" type="upgrade">
@@ -11278,7 +11278,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b69-42ae-16e3-cfd2" name="Lancer Laser Destroyer" hidden="false" collective="false" import="true" type="upgrade">
@@ -11360,7 +11360,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1d9-b865-21d1-7019" name="Gladiator" hidden="false" collective="false" import="true" type="upgrade">
@@ -11464,7 +11464,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e0e-9bb8-531c-7e41" name="Twin Las-talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -12421,7 +12421,7 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12582,7 +12582,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="cafa-a811-5d8d-91b7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d23-dd4d-799a-3c25" name="Storm Speeder Hailstrike" hidden="false" collective="false" import="true" type="upgrade">
@@ -12640,7 +12640,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d62b-9758-2ffe-c65d" name="Twin Ironhail Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
@@ -12740,7 +12740,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5592-33ce-cd2a-dbea" name="Storm Speeder Hammerstrike" hidden="false" collective="false" import="true" type="upgrade">
@@ -12823,7 +12823,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba63-ab3f-8747-a3d1" name="Thunderfire Cannon" hidden="false" collective="false" import="true" type="unit">
@@ -12924,7 +12924,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="768f-c298-fbe5-4de2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fb2-fc72-9e69-d8ad" name="Centurion Assault Squad" hidden="false" collective="false" import="true" type="unit">
@@ -13327,7 +13327,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="4b34-8e41-e033-a17b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1535-dab4-2aea-8137" name="Ancient In Terminator Armour" hidden="false" collective="false" import="true" type="unit">
@@ -13847,18 +13847,8 @@ otherwise, place one blast marker next to it.</characteristic>
         <entryLink id="4063-b429-eefe-67ab" name="2 models" hidden="false" collective="false" import="true" targetId="39cc-5900-f296-f3ee" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="16.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="12.0">
@@ -13866,48 +13856,58 @@ otherwise, place one blast marker next to it.</characteristic>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
         <entryLink id="0bfb-a9f5-a06e-c8a7" name="3 models" hidden="false" collective="false" import="true" targetId="973a-0f6f-0bb6-eb25" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="24.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+              </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="18.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a174-ff44-76cf-3ae8" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="30.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
-              </conditions>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
         <entryLink id="e148-d80f-65e5-a1ed" name="1 model" hidden="false" collective="false" import="true" targetId="2d2d-bda0-50dc-b72d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="8.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7652-b76a-a5c3-f1f9" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e1-1b23-02cb-ee0c" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9a4-1853-0149-42d2" type="instanceOf"/>
-              </conditions>
             </modifier>
             <modifier type="set" field="1466-da3f-0d27-dace" value="6.0">
               <conditions>
@@ -14251,7 +14251,7 @@ otherwise, place one blast marker next to it.</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
         <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-        <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+        <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
       </characteristics>
     </profile>
     <profile id="3941-0a5c-b392-709b" name="Rites of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">

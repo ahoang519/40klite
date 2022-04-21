@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="8" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="9" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="93ec-5bb0-7861-be16" name="Faction: Astra Militarum" hidden="false"/>
     <categoryEntry id="65a5-3f67-4f86-350f" name="Leman Russ" hidden="false"/>
@@ -119,7 +119,7 @@
         <entryLink id="a03a-616d-c925-030d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b1a-095d-a2a9-1c93" name="Master of Ordnance" hidden="false" collective="false" import="true" type="unit">
@@ -314,7 +314,7 @@
             <entryLink id="9161-4c7d-42f9-ed67" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -367,7 +367,7 @@
             <entryLink id="df2c-0e42-a9dc-15a8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -425,7 +425,7 @@
             <entryLink id="c224-838b-4e51-1de4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -526,7 +526,7 @@
         <entryLink id="b635-80a4-cb71-b94d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61f5-ed5a-0cc2-1976" name="Shadowsword" hidden="false" collective="false" import="true" type="unit">
@@ -610,7 +610,7 @@
         <entryLink id="4d34-909e-15fb-9ece" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6eb-f9a4-3a09-1eaf" name="Stormsword" hidden="false" collective="false" import="true" type="unit">
@@ -686,7 +686,7 @@
         <entryLink id="4aec-fd13-dae5-e6fc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e95-ce98-49a7-bf62" name="Valkyrie Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -758,7 +758,7 @@
             <entryLink id="bf49-3446-f842-d4fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -806,7 +806,7 @@
         <entryLink id="9995-7c89-eb4d-7f31" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b63d-05b4-e43b-26a9" name="Centaur Light Carrier" hidden="false" collective="false" import="true" type="unit">
@@ -844,7 +844,7 @@
         <entryLink id="e99a-fb35-65da-1959" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c8f-ec28-4f55-87aa" name="Trojan Support Vehicle" hidden="false" collective="false" import="true" type="unit">
@@ -887,7 +887,7 @@
         <entryLink id="7560-fefd-0ece-2348" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e7a-93c2-e2fa-d5ac" name="Salamander Scout Tank Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -1012,7 +1012,7 @@
             <entryLink id="daca-d921-45cc-6fb0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1083,7 +1083,7 @@
             <entryLink id="9a3e-8e2a-6584-0624" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1252,7 +1252,7 @@
             <entryLink id="279f-7adc-8471-21ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1334,7 +1334,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="342f-c4ae-8a39-7eb0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1491,7 +1491,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="9d9e-b962-5942-6d5c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1746,7 +1746,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="bd87-053b-999e-fa38" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2836-6d9c-fccb-9292" name="Malcador Defender" hidden="false" collective="false" import="true" type="unit">
@@ -1833,7 +1833,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="7df5-effc-a7ce-aed9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dd3-f632-39e2-5742" name="Malcador Heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -1890,7 +1890,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="0bf7-4b28-b2aa-2d2e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c82-1cf8-8c0f-2b9b" name="Malcador Infernus" hidden="false" collective="false" import="true" type="unit">
@@ -1995,7 +1995,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="7002-93e0-6cf0-04f0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c2-aaa9-8c4e-7a1f" name="Medusa Carriage Battery" hidden="false" collective="false" import="true" type="unit">
@@ -2229,7 +2229,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="ddd5-3aa8-e98a-eeaa" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2282,7 +2282,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="b041-68cc-fbe9-5d12" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2512,7 +2512,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="462b-85cc-af5b-aa56" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff20-5c3c-a798-08c9" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -2579,7 +2579,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="4e04-8be3-53cc-bc5b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9652-e280-1759-b921" name="Macharius Omega" hidden="false" collective="false" import="true" type="unit">
@@ -2671,7 +2671,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="671b-4271-2d00-fb84" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14b4-3376-467f-c639" name="Macharius Vanquisher" hidden="false" collective="false" import="true" type="unit">
@@ -2738,7 +2738,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="42b8-9f86-6d6e-4535" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a579-474b-306b-0a8c" name="Macharius Vulcan" hidden="false" collective="false" import="true" type="unit">
@@ -2810,7 +2810,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="18b7-41dc-5e1b-4438" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4046-05b7-268e-1c78" name="Minotaur Artillery Tank" hidden="false" collective="false" import="true" type="unit">
@@ -2874,7 +2874,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="b8f8-a166-6f57-69f7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3adc-fac7-dcbb-30d3" name="Avenger Strike Fighter" hidden="false" collective="false" import="true" type="unit">
@@ -3024,7 +3024,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="0135-7313-1c89-3d7c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b76e-ab1a-c872-81de" name="Lightning Strike Fighter" hidden="false" collective="false" import="true" type="unit">
@@ -3124,7 +3124,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="32f8-11e7-e5e1-61db" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37b6-4a59-a162-76a6" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" type="unit">
@@ -3224,7 +3224,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="90b7-abee-b7a7-e957" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45cb-a763-0a75-8cba" name="Vendetta Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -3313,7 +3313,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="137b-4105-485e-72b6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3522,7 +3522,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="7933-5ef9-57a7-3d62" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3724,7 +3724,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="0948-039e-962f-6799" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3802,7 +3802,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="5180-426f-fb3f-f44b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3866,7 +3866,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <entryLink id="bd97-5912-6bb9-9ccd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3918,7 +3918,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="18dd-d98a-f217-7389" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c810-d0a6-6376-e6f7" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4334,7 +4334,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <entryLink id="da08-4ee5-eabf-12e7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f554-4ea8-46a0-e264" name="Earthshaker Platform" hidden="false" collective="false" import="true" type="upgrade">

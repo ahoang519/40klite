@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="7" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="9" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -571,7 +571,7 @@
         <entryLink id="0022-4354-ba2a-c800" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43af-be45-7918-425b" name="Kytan Ravager" hidden="false" collective="false" import="true" type="unit">
@@ -654,7 +654,7 @@
         <entryLink id="6670-4ef2-1732-1038" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f692-9c00-d320-323c" name="Greater Brass Scorpion of Khorne" hidden="false" collective="false" import="true" type="unit">
@@ -789,7 +789,7 @@
         <entryLink id="b9f0-38a4-949f-c685" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a237-dcd0-5abf-c97f" name="Hellforged Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1035,7 +1035,7 @@
         <entryLink id="0136-29d3-814e-2a4a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f06-66b9-535a-fb5d" name="Hellflamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1145,7 +1145,7 @@
         <entryLink id="5c23-6592-fa3c-3119" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3605-e17c-9a43-200d" name="Infernal Hunger" hidden="false" collective="false" import="true" type="upgrade">
@@ -1240,7 +1240,7 @@
         <entryLink id="2ea3-f04b-bccf-ac4b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9dd5-6059-18d1-51ec" name="Hellforged Predator" hidden="false" collective="false" import="true" type="unit">
@@ -1337,7 +1337,7 @@
         <entryLink id="26a9-8023-aa63-e6f2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="660d-f9b6-ddc9-9946" name="Hellforged Scorpius" hidden="false" collective="false" import="true" type="unit">
@@ -1384,7 +1384,7 @@
         <entryLink id="20dc-0b5e-aed7-5659" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="721a-be95-29eb-4766" name="Hellforged Sicaran Venator" hidden="false" collective="false" import="true" type="unit">
@@ -1486,7 +1486,7 @@
         <entryLink id="3c58-409b-4444-480a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1234-dc9e-04cd-a218" name="Hellforged Sicaran" hidden="false" collective="false" import="true" type="unit">
@@ -1568,7 +1568,7 @@
         <entryLink id="f61a-a882-f022-caed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f94-7327-3258-42fb" name="Hellforged Spartan Assault Tank" hidden="false" collective="false" import="true" type="unit">
@@ -1656,7 +1656,7 @@
         <entryLink id="ace8-94e9-58c1-d27e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b186-9dcb-3dc3-2454" name="Hellforged Deredeo Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1789,7 +1789,7 @@
         <entryLink id="c35a-da4f-01f4-2111" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc78-3fd8-a305-ab01" name="Butcher Cannon Array" hidden="false" collective="false" import="true" type="upgrade">
@@ -1895,7 +1895,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2063,7 +2063,7 @@
         <entryLink id="0041-cd53-dcf3-9d00" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6962-3f8f-63d3-803c" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" type="unit">
@@ -2151,7 +2151,7 @@
         <entryLink id="2524-50a8-7380-02b8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b56-60e3-1ec2-2be6" name="Hellforged Kharybdis Assault Claw" hidden="false" collective="false" import="true" type="unit">
@@ -2282,7 +2282,7 @@
         <entryLink id="7fbc-9920-9b54-d2ff" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e39f-1bdb-b3aa-1d6c" name="Hellforged Cerberus Heavy Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -2379,7 +2379,7 @@
         <entryLink id="c3ff-4e8f-1b50-a625" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3503-4ef7-b6f7-6c37" name="Hellforged Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" type="unit">
@@ -2481,7 +2481,7 @@
         <entryLink id="49b4-b653-4132-048e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1481-8054-00fd-6add" name="Hellforged Fellblade" hidden="false" collective="false" import="true" type="unit">
@@ -2592,7 +2592,7 @@
         <entryLink id="ffb9-de5d-4564-f4a3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="33.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4225-0de4-57c9-5d38" name="Eternal Hunger" hidden="false" collective="false" import="true" type="upgrade">
@@ -2698,7 +2698,7 @@
         <entryLink id="4979-460f-e7b4-6b82" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="033e-f9c8-c4b0-2f34" name="Hellforged Mastodon" hidden="false" collective="false" import="true" type="unit">
@@ -2769,7 +2769,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="d046-e6c5-ccf8-3ecf" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="37.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b299-fe4e-bf7e-f9b1" name="Chaos Hell Blade" hidden="false" collective="false" import="true" type="unit">
@@ -3051,7 +3051,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="af0e-37ec-9c13-b6bd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4335-f054-c6ae-0368" name="Reaper Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3511,7 +3511,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="bfe1-bb67-1bce-32a7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ca7-9758-48ff-235b" name="Helbrute" hidden="false" collective="false" import="true" type="unit">
@@ -3533,7 +3533,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="0c3f-02c5-f223-199d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0de5-74b3-8e23-e51e" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -3560,7 +3560,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="aa80-414d-f545-9c26" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bb5-c411-fce8-4b76" name="Sonic Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -3597,7 +3597,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="b7b4-b5c8-a83f-77e6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad0d-f930-ae7f-f255" name="Blastmaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -3702,7 +3702,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="6f60-ba60-036f-066a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56e4-bce0-be0a-9f92" name="Terrax-Pattern Termite Assault Drill" hidden="false" collective="false" import="true" type="unit">
@@ -3851,7 +3851,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="585f-ca0c-dc9a-99c0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8fa-3ec8-92bd-35de" name="Chaos Lord" hidden="false" collective="false" import="true" type="unit">
@@ -3997,7 +3997,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <categoryLink id="007c-380e-e3a1-cb24" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57e6-a330-44cd-642b" name="Baleflamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -4637,7 +4637,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -4664,7 +4664,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="49cf-70b3-3b87-be24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c977-6ee2-730c-59f6" name="Forgefiend" hidden="false" collective="false" import="true" type="unit">
@@ -4896,7 +4896,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="1f05-f43e-3a7a-505d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dbc-6837-ede6-1e74" name="Chaos Predator" hidden="false" collective="false" import="true" type="unit">
@@ -4977,7 +4977,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="6a41-4b91-8ab3-ff61" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54cb-7a5f-9c51-8129" name="Chaos Vindicator" hidden="false" collective="false" import="true" type="unit">
@@ -5033,7 +5033,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="3f5c-64d2-2590-455d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e58-d7f5-8d06-d98b" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -5116,7 +5116,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="6c65-85c5-e3f0-36dc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0a7-ca99-f182-aa7c" name="Chaos Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -5200,7 +5200,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="f398-6272-84b1-da27" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92bd-5224-16c2-5754" name="Heldrake" hidden="false" collective="false" import="true" type="unit">
@@ -5277,7 +5277,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="37e2-b803-64a8-4b03" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d31e-96b7-567b-db1d" name="Plague Marines" hidden="false" collective="false" import="true" type="unit">
@@ -5303,7 +5303,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -5337,7 +5337,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7c3c-02b2-12b4-a974" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5355,7 +5355,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d891-aed0-b1e7-333a" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5373,7 +5373,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="52.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1af0-bf0b-c3eb-1e81" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5391,7 +5391,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5502,7 +5502,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="29e7-e10b-7092-631b" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5520,7 +5520,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="42.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d8a-efe9-816d-dc65" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5538,7 +5538,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="52.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="56.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd69-7a33-dbd6-b922" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5556,7 +5556,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5617,7 +5617,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -5706,7 +5706,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       <profiles>
         <profile id="c166-92cd-ed90-0298" name="Writhing Tentacles" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit fights with a melee weapon, roll one D6 for every 5 models this unit contains to determine the number of attacks it makes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5764,7 +5764,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d447-61e1-06a3-67d5" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5782,7 +5782,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3e8d-1bfb-c449-8b1d" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5800,7 +5800,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ce9-6f6b-5db5-ee70" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5818,7 +5818,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="48.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="52.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

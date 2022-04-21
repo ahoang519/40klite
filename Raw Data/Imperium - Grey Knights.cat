@@ -248,7 +248,7 @@
         <entryLink id="e5c3-a7eb-cf7a-6362" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a25-d2a7-dcb8-c896" name="Castellan Crowe" hidden="false" collective="false" import="true" type="unit">
@@ -1473,7 +1473,7 @@
         <entryLink id="4f66-27a9-376d-496a" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bef-1cb7-ee63-fb33" name="Vortimer Pattern Razorback" hidden="false" collective="false" import="true" type="unit">
@@ -1525,7 +1525,7 @@
         <entryLink id="e5ed-d716-52b9-7867" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1005-e02c-ab68-0db0" name="Doomglave Pattern Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1609,7 +1609,7 @@
         <entryLink id="a7f2-4d97-00fd-4053" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c821-ab54-475c-a5da" name="Vortimer Pattern Land Raider Redeemer" hidden="false" collective="false" import="true" type="unit">
@@ -1684,7 +1684,7 @@
         <entryLink id="df10-dd6e-f0e7-a76d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36a2-a881-c9f5-bec7" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" type="unit">
