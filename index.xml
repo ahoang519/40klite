@@ -2,24 +2,6 @@
 <dataIndex battleScribeVersion="2.03" name="Warhammer 40,000 Lite Edition" indexUrl="https://github.com/ahoang519/40klite/raw/master/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer 40,000 Lite Edition.gstz" dataType="gamesystem" dataId="5596-906e-5a39-fef7" dataName="Warhammer 40,000 Lite Edition" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Chaos - Thousand Sons.catz" dataType="catalogue" dataId="b3f9-0064-26dc-658f" dataName="Chaos - Thousand Sons" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Library - Astra Militarum.catz" dataType="catalogue" dataId="81bf-7fa3-6611-998e" dataName="Library - Astra Militarum" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Imperium - Adeptus Astartes.catz" dataType="catalogue" dataId="ba6e-f4e4-9c13-bd4c" dataName="Imperium - Adeptus Astartes" dataBattleScribeVersion="2.03" dataRevision="8"/>
-    <dataIndexEntry filePath="Imperium - Grey Knights.catz" dataType="catalogue" dataId="e73b-e178-8e7f-7ade" dataName="Imperium - Grey Knights" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Library - Chaos Space Marines.catz" dataType="catalogue" dataId="6888-3824-ab4f-1868" dataName="Library - Chaos Space Marines" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Library - Aeldari Weapons.catz" dataType="catalogue" dataId="d311-d4fb-a860-0cf3" dataName="Library - Aeldari Weapons" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Imperium - Deathwatch.catz" dataType="catalogue" dataId="755c-47e1-1715-5ef2" dataName="Imperium - Deathwatch" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tyranids - Genestealer Cults.catz" dataType="catalogue" dataId="8bfe-a35b-4a37-beb7" dataName="Tyranids - Genestealer Cults" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Library - Weapons.catz" dataType="catalogue" dataId="02de-a64c-225d-8e88" dataName="Library - Weapons" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Unaligned.catz" dataType="catalogue" dataId="c0df-cab4-af61-63d9" dataName="Unaligned" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Imperium - Astra Militarum.catz" dataType="catalogue" dataId="ed62-9ebb-f4c8-dd03" dataName="Imperium - Astra Militarum" dataBattleScribeVersion="2.03" dataRevision="10"/>
-    <dataIndexEntry filePath="Library - Space Marines.catz" dataType="catalogue" dataId="c56b-a784-45be-6982" dataName="Library - Space Marines" dataBattleScribeVersion="2.03" dataRevision="15"/>
-    <dataIndexEntry filePath="Imperium - Adeptus Custodes.catz" dataType="catalogue" dataId="3d8d-c2f6-d13b-8174" dataName="Imperium - Adeptus Custodes" dataBattleScribeVersion="2.03" dataRevision="5"/>
-    <dataIndexEntry filePath="Tyranids - Hive Fleets.catz" dataType="catalogue" dataId="cd4a-de75-c46c-2e6f" dataName="Tyranids - Hive Fleets" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Aeldari - Craftworlds.catz" dataType="catalogue" dataId="8438-2d0c-eaf9-6f84" dataName="Aeldari - Craftworlds" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Chaos - Heretic Astartes.catz" dataType="catalogue" dataId="6ff1-b8b9-e2c5-392a" dataName="Chaos - Heretic Astartes" dataBattleScribeVersion="2.03" dataRevision="6"/>
-    <dataIndexEntry filePath="Orks.catz" dataType="catalogue" dataId="e528-2359-5486-47f4" dataName="Orks" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Imperium - Imperial Knights.catz" dataType="catalogue" dataId="b206-28b6-fad6-ed60" dataName="Imperium - Imperial Knights" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Necrons.catz" dataType="catalogue" dataId="e8a9-35f0-2c03-94db" dataName="Necrons" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Imperium - Grey Knights.catz" dataType="catalogue" dataId="e73b-e178-8e7f-7ade" dataName="Imperium - Grey Knights" dataBattleScribeVersion="2.03" dataRevision="5"/>
   </dataIndexEntries>
 </dataIndex>
