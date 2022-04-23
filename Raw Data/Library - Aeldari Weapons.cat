@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d311-d4fb-a860-0cf3" name="Library - Aeldari Weapons" revision="3" battleScribeVersion="2.03" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d311-d4fb-a860-0cf3" name="Library - Aeldari Weapons" revision="5" battleScribeVersion="2.03" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b3cf-7747-c0da-770b" name="Faction: Asuryani" hidden="false"/>
     <categoryEntry id="fb21-5552-52d6-42e7" name="Faction: Drukhari" hidden="false"/>
@@ -152,8 +152,8 @@
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
     </profile>
@@ -162,8 +162,8 @@
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
     </profile>
@@ -172,7 +172,7 @@
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
         <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
@@ -182,7 +182,7 @@
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
         <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
@@ -193,7 +193,7 @@
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
         <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
     </profile>
@@ -257,8 +257,8 @@
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
     </profile>

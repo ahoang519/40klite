@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="4" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="5" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>

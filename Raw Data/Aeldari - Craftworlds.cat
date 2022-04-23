@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="7" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="9" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Forge World Units not supported yet.</readme>
   <publications>
     <publication id="280a-43bb-426c-aa7c" name="Asuryani Datasheets PDF"/>
@@ -1465,7 +1465,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4859-37e7-5553-eb20" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -1486,7 +1486,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1619,7 +1619,6 @@ target Necrons units.</characteristic>
     <selectionEntry id="9264-38a4-f7e5-b84a" name="Striking Scorpions" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a29a-c53c-2909-cd33" name="Infiltrators" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
-        <infoLink id="09fd-947d-3dbd-947e" name="Deep Strike" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
         <infoLink id="90bb-c4ee-7065-1964" name="Shadow Strike" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="6120-7f0f-d3b0-a6dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -1701,7 +1700,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f23a-ba25-36b3-4c42" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -1722,7 +1721,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1761,13 +1760,16 @@ target Necrons units.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="9740-8d1e-e66b-bcd4" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -1798,7 +1800,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0719-5b9e-b889-8ff4" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -1819,7 +1821,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1827,7 +1829,7 @@ target Necrons units.</characteristic>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7235-494a-bcd3-3eca" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="e6be-2b93-7a72-4638" name="Close Combat Weapons (8/10)" hidden="false" collective="false" import="true" targetId="d151-baee-772a-7265" type="selectionEntry"/>
+        <entryLink id="e6be-2b93-7a72-4638" name="Close Combat Weapons (8/11)" hidden="false" collective="false" import="true" targetId="d151-baee-772a-7265" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2019,7 +2021,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="939a-4f28-e1db-c239" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2040,7 +2042,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2059,14 +2061,17 @@ target Necrons units.</characteristic>
                 <profile id="2ca4-d6c8-6442-8c91" name="Wraithcannon" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="fcb9-3df4-893c-11ae" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
@@ -2082,11 +2087,15 @@ target Necrons units.</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno, Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="a3b7-e676-6cce-61fe" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+                <infoLink id="9204-dc35-8586-0c4c" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
@@ -2221,7 +2230,7 @@ target Necrons units.</characteristic>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="415e-0f12-c265-eb60" name="Shuriken Catapults" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="8c54-7d0e-9061-d141" type="selectionEntry"/>
-        <entryLink id="d53d-f02a-ea60-6a5f" name="Close Combat Weapons" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="d151-baee-772a-7265" type="selectionEntry"/>
+        <entryLink id="d53d-f02a-ea60-6a5f" name="Close Combat Weapons (8/11)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="d151-baee-772a-7265" type="selectionEntry"/>
         <entryLink id="6bf9-2b86-dd4f-f8f7" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -2387,7 +2396,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="68cf-d120-14e1-81ff" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2408,7 +2417,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2873,12 +2882,12 @@ target Necrons units.</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab32-3501-56b8-67ee" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2894,19 +2903,19 @@ target Necrons units.</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bc97-4900-b4e0-06aa" name="Close Combat Weapons" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="9b28-4821-8027-142e" type="selectionEntry"/>
+        <entryLink id="bc97-4900-b4e0-06aa" name="Close Combat Weapons (8/10)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="9b28-4821-8027-142e" type="selectionEntry"/>
         <entryLink id="fab0-f3ab-0fe5-8187" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -2940,8 +2949,8 @@ target Necrons units.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -2977,7 +2986,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="948d-d858-05c3-fdd0" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -2998,7 +3007,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3082,7 +3091,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d178-5eb3-1d4b-c3ec" name="6 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3103,7 +3112,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="959f-482a-d4d6-a3f7" name="9 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3124,7 +3133,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="57.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3569,7 +3578,7 @@ target Necrons units.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -3606,7 +3615,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d0c9-0992-18ef-6f4a" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
@@ -3627,7 +3636,7 @@ target Necrons units.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3855,9 +3864,9 @@ target Necrons units.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -3892,7 +3901,7 @@ target Necrons units.</characteristic>
         <entryLink id="602f-d103-8a15-45d3" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38fe-72be-0945-ee29" name="Wave Serpent" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -3964,8 +3973,8 @@ target Necrons units.</characteristic>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -3984,8 +3993,8 @@ target Necrons units.</characteristic>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -4004,8 +4013,8 @@ target Necrons units.</characteristic>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -4024,7 +4033,7 @@ target Necrons units.</characteristic>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
@@ -4044,7 +4053,7 @@ target Necrons units.</characteristic>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
@@ -4542,7 +4551,7 @@ weapons by this unit.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b28-4821-8027-142e" name="Close Combat Weapons (8/9)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9b28-4821-8027-142e" name="Close Combat Weapons (8/10)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba99-18f3-5b37-8a2d" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a7-e4ce-74ff-1dba" type="max"/>
@@ -4552,9 +4561,9 @@ weapons by this unit.</characteristic>
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -4611,7 +4620,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -4853,7 +4862,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -4862,7 +4871,7 @@ weapons by this unit.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="663a-a631-45d1-f15d" name="Close Combat Weapons (7/9)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="663a-a631-45d1-f15d" name="Close Combat Weapons (7/10)" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c20-adf6-e459-62d6" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5e-716b-b064-bf4f" type="max"/>
@@ -4874,7 +4883,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -5246,7 +5255,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -5545,7 +5554,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
@@ -5695,7 +5704,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -5769,7 +5778,7 @@ weapons by this unit.</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -7159,7 +7168,7 @@ weapons by this unit.</characteristic>
     </profile>
     <profile id="6120-7f0f-d3b0-a6dc" name="Shadow Strike" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to hit rolls for attacks made with melee weapons by this unit that target units garrisoning a Defensible Terrain feature.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made by this unit, an unmodified 6 scores 1 additional hit. </characteristic>
       </characteristics>
     </profile>
     <profile id="1aee-17ef-2b7d-f5bd" name="Hover Jet" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
