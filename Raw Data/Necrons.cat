@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e8a9-35f0-2c03-94db" name="Necrons" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Dr. Toboggan" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e8a9-35f0-2c03-94db" name="Necrons" revision="2" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Dr. Toboggan" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="68dd-6404-9212-3a21" name="Mechanical Augmentation">
       <characteristicTypes>
@@ -674,12 +674,12 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
         <profile id="4c4a-ba17-20db-e94e" name="My Will be Done (CCB)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Orders Phase, you can select one friendly LIGHT necron unit within 9&quot;. Whenever that unit makes an attack, it adds +1 to the hit roll. Each unit can only be selected for My Will Be Done once per phase. </characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Action Phase, you can nominate one friendly LIGHT NECRON unit to be affected by My Will Be Done. That unit adds +1 to its hit rolls for attacks it makes. Each unit can only be selected for My Will Be Done once per phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="dc5f-5eed-a810-1f20" name="Wave of Command" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -731,7 +731,7 @@
         <entryLink id="01f9-4a07-3d0c-306e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a2f-2f28-558f-a482" name="Staff of the Destroyer" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -740,7 +740,7 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -751,7 +751,7 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
@@ -768,7 +768,7 @@
       <profiles>
         <profile id="d95c-b6f1-7284-55c1" name="Imotekh the Stormlord" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -779,12 +779,12 @@
         </profile>
         <profile id="554d-1286-6f98-533f" name="Hyper-logical Strategist" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Generate Command Assets step, if this unit is a WARLORD and is on the battlefield, you generate one extra Command Asset.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Generate Command Assets step, you generate one extra Command Asset if you this character is your WARMASTER.</characteristic>
           </characteristics>
         </profile>
         <profile id="35f0-0330-31a8-b29e" name="Lord of the Storm" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, at the start of the Action phase, you can select one point on the battlefield within 24&quot; of this unit and place one marker (e.g. a coin) on that point. At the end of that Action phase, roll one D12 for each unit within 6&quot; of that marker before removing that marker from the battlefield; on a 4-8 place one blast marker next to the unit being rolled for, and on a 9-12 place two blast markers next to the unit being rolled for.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, at the start of the Action phase, you can select one enemy unit within 48&quot; of Imotekh. At the end of that Action phase, roll one D12 for each unit within 6&quot; of that unit. On a 9+, place a blast token on that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -810,7 +810,7 @@
         <entryLink id="daf7-39eb-aa5c-43ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b69-0be9-1f91-e528" name="Orikan the Diviner" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1139,12 +1139,12 @@
       <profiles>
         <profile id="be97-c650-3d5e-c881" name="My Will be Done (No Dynasty)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Orders Phase, you can select one friendly LIGHT necron unit within 9&quot;. Whenever that unit makes an attack, it adds +1 to the hit roll. Each unit can only be selected for My Will Be Done once per phase. </characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Action Phase, you can nominate one friendly LIGHT NECRON unit to be affected by My Will Be Done. That unit adds +1 to its hit rolls for attacks it makes. Each unit can only be selected for My Will Be Done once per phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="2465-dbf3-c90c-a4be" name="Anrakyr the Traveller" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -1155,7 +1155,7 @@
         </profile>
         <profile id="d20d-05f7-c9bb-4279" name="Lord of the Pyrrhian Legions" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to wound rolls for attacks made with melee weapons by friendly NECRONS LIGHT units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1-2 to wound rolls for attacks made with melee weapons by friendly NECRONS LIGHT units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5549,6 +5549,9 @@ In addition, at the end of the Action phase, this unit can repair one friendly &
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -6702,14 +6705,14 @@ Each time an attack is made with this weapon, if a hit is scored, draw a straigh
         <entryLink id="c733-2e57-ac5b-77a3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="26ba-1176-3a32-b988" name="My Will be Done (Sautekh)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly LIGHT SAUTEKH units whilst they are within 6&quot; of this unit.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Action Phase, you can nominate one friendly LIGHT NECRON unit to be affected by My Will Be Done. That unit adds +1 to its hit rolls for attacks it makes. Each unit can only be selected for My Will Be Done once per phase. </characteristic>
       </characteristics>
     </profile>
     <profile id="79a4-8001-1d45-8783" name="Hover" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
