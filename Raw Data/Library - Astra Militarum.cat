@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="11" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81bf-7fa3-6611-998e" name="Library - Astra Militarum" revision="12" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="93ec-5bb0-7861-be16" name="Faction: Astra Militarum" hidden="false"/>
     <categoryEntry id="65a5-3f67-4f86-350f" name="Leman Russ" hidden="false"/>
@@ -119,7 +119,7 @@
         <entryLink id="a03a-616d-c925-030d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b1a-095d-a2a9-1c93" name="Master of Ordnance" hidden="false" collective="false" import="true" type="unit">
@@ -526,7 +526,7 @@
         <entryLink id="b635-80a4-cb71-b94d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61f5-ed5a-0cc2-1976" name="Shadowsword" hidden="false" collective="false" import="true" type="unit">
@@ -610,7 +610,7 @@
         <entryLink id="4d34-909e-15fb-9ece" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6eb-f9a4-3a09-1eaf" name="Stormsword" hidden="false" collective="false" import="true" type="unit">
@@ -686,7 +686,7 @@
         <entryLink id="4aec-fd13-dae5-e6fc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e95-ce98-49a7-bf62" name="Valkyrie Squadron" hidden="false" collective="false" import="true" type="unit">

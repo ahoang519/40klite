@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="12" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="13" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -4511,7 +4511,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="7f90-61ae-81df-56f5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5ec-4e17-536a-efa8" name="Banesword" hidden="false" collective="false" import="true" type="unit">
@@ -4602,7 +4602,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="d009-9cd5-a2dd-282f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="779d-7cba-7bd7-c602" name="Doomhammer" hidden="false" collective="false" import="true" type="unit">
@@ -4702,7 +4702,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="f264-b158-1762-335b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3d2-d938-9c26-701b" name="Hellhammer" hidden="false" collective="false" import="true" type="unit">
@@ -4805,7 +4805,7 @@ Praetor Launcher for this action.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99f3-850a-ea11-6a18" name="Stormlord" hidden="false" collective="false" import="true" type="unit">
@@ -4906,7 +4906,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="78d4-5687-ab63-dd5b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="29.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e581-6d33-956b-efed" name="Taurox" hidden="false" collective="false" import="true" type="unit">

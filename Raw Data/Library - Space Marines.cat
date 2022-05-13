@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="17" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="18" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -461,29 +461,6 @@
         <categoryLink id="db43-fc68-d7c7-3dd8" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="439f-1db8-0f7b-7131" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="211d-cbe4-fb86-7772" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d2-598a-56cc-c67f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc2-b421-734e-4cb0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="773d-e06f-8693-c3f3" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="9f43-a66b-69ac-e999" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="cc7f-9a3a-e6e5-46aa" name="Bolt Rifles" hidden="false" collective="false" import="true" targetId="29cb-36f3-3f72-ac2d" type="selectionEntry">
@@ -493,6 +470,7 @@
           </constraints>
         </entryLink>
         <entryLink id="278f-b15d-9906-8c13" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="f6e8-ce39-879e-bc39" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -575,29 +553,6 @@
         <categoryLink id="0cdd-6e00-a0e6-edf5" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="3171-c53e-b0a7-5b37" name="Infiltrator Squad" hidden="false" targetId="aa96-14a7-0694-f560" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e6cc-f0bd-2a29-e519" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f39-a727-ff7e-6565" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c61e-0059-ac78-ca9a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9e9f-5d32-f333-2559" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="646c-2b74-a8d8-778a" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="82cf-edcd-e750-faa7" name="Marksman Bolt Carbines" hidden="false" collective="false" import="true" targetId="8a64-b315-e590-4e2c" type="selectionEntry">
@@ -607,6 +562,7 @@
           </constraints>
         </entryLink>
         <entryLink id="5385-11f8-11f9-97f3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="8a0b-246a-22d4-2db9" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2976,9 +2932,9 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -3960,13 +3916,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1060-bf24-ffc7-dc77" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f9c-1456-c9ad-fd71" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9072-7a75-3c27-7122" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="9c00-0fa8-23a4-cd7c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="d917-b4d5-1289-6d19" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
@@ -4641,29 +4592,6 @@
         <categoryLink id="5cc4-e5ec-c00c-8e4e" name="MK X Gravis" hidden="false" targetId="8438-9607-67d0-a3e3" primary="false"/>
         <categoryLink id="2085-1c50-a6d1-a628" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="aa8a-fc22-4af2-ab7c" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d7-2c6b-8c45-e110" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9555-faad-c454-956d" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="fa7d-66d6-9356-1913" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="eaf9-1294-92b5-748e" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c2b2-a71d-1114-cf3e">
           <constraints>
@@ -4722,6 +4650,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a8c5-038f-40d9-9f66" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="45fd-bbde-d635-6bfc" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -5059,7 +4988,7 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
@@ -10751,31 +10680,11 @@ otherwise, place one blast marker next to it.</characteristic>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="45e8-4567-c04d-6661" name="Close Combat Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af2-b0eb-aa9f-8d59" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b9-d895-3794-7455" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="6e67-cbb4-5b52-fdc7" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="9e5c-27d0-a676-5cb3" name="5 - 10 models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="b89e-ed9e-dce1-cd2e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="2ace-dc0c-3094-8843" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -11632,27 +11541,6 @@ otherwise, place one blast marker next to it.</characteristic>
         <categoryLink id="4a0b-f943-fc85-b0a6" name="MK X Gravis" hidden="false" targetId="8438-9607-67d0-a3e3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="673b-8ecc-9c65-fe02" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d8-d978-3342-c640" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912b-59d4-e33d-6c34" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="760a-38da-5a23-224f" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a7a1-bfd0-ae0b-a292" name="Heavy Bolt Rifle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e20-17b9-1e46-2bfd" type="max"/>
@@ -11723,6 +11611,7 @@ otherwise, place one blast marker next to it.</characteristic>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5606-5aed-19fb-99ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="55e0-0e9d-3622-b4a5" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" targetId="70f2-0b5e-e475-ffd1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -13586,6 +13475,24 @@ otherwise, place one blast marker next to it.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="70f2-0b5e-e475-ffd1" name="Close Combat Weapons (Primaris Squad)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5541-8a12-c8a0-8cac" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3007-4e01-6ef7-ca9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2e56-1262-8993-f599" name="Close Combat Weapons (Primaris Squad)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">+7</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">+10</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="dfca-1772-18d0-ab91" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="12ba-b224-c129-7243">
@@ -13760,7 +13667,7 @@ otherwise, place one blast marker next to it.</characteristic>
       <entryLinks>
         <entryLink id="fbce-e35c-b948-0bd0" name="6 models" hidden="false" collective="false" import="true" targetId="8593-349a-e033-266b" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="26.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="34.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c608-6a5b-42d5-48e2" type="instanceOf"/>
               </conditions>
@@ -13774,7 +13681,7 @@ otherwise, place one blast marker next to it.</characteristic>
         </entryLink>
         <entryLink id="a9ec-6432-91ba-f8bf" name="3 models" hidden="false" collective="false" import="true" targetId="973a-0f6f-0bb6-eb25" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="13.0">
+            <modifier type="set" field="1466-da3f-0d27-dace" value="17.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c608-6a5b-42d5-48e2" type="instanceOf"/>
               </conditions>

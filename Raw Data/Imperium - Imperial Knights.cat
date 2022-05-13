@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="5" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="6" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -360,7 +360,7 @@
         <categoryLink id="e482-edc5-8c2a-e343" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0564-6e58-4130-c94c" name="Armiger Helverins" hidden="false" collective="false" import="true" targetId="1c96-db8e-6a60-496f" type="selectionEntry">
+    <entryLink id="0564-6e58-4130-c94c" name="Armiger Helverin Squadron" hidden="false" collective="false" import="true" targetId="1c96-db8e-6a60-496f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="95bb-3cd5-87aa-885d" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
@@ -1013,7 +1013,7 @@
         <entryLink id="947f-1df6-4372-4bf5" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10d5-af4f-5752-5e84" name="Acastus Knight Porphyrion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1152,7 +1152,7 @@
         <entryLink id="592b-835c-00e6-46e3" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d79-64a1-6c25-d84c" name="Cerastus Knight-Lancer" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1425,7 +1425,7 @@
         <entryLink id="3971-0650-4127-004c" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f424-855a-1112-4a7c" name="Helios Defence Missiles" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -2218,7 +2218,7 @@
         <entryLink id="4500-8b50-ed97-eabf" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b661-31c5-5f4f-eb21" name="Knight Castellan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2303,7 +2303,7 @@
         <entryLink id="5a04-8073-5249-e1d6" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9031-bcde-12c6-a3e0" name="Knight Gallant" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2401,7 +2401,7 @@
         <entryLink id="e1ee-f2b0-e34a-52b8" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5928-e339-1e0e-11a7" name="Knight Errant" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">

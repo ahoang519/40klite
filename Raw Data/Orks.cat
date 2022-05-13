@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e528-2359-5486-47f4" name="Orks" revision="7" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e528-2359-5486-47f4" name="Orks" revision="8" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0a10-9bdd-9094-8fd9" name="Zhadsnark Da Ripper" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="a7b6-c22d-eef2-aa0c" name="Weirdboy" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -6064,7 +6064,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9458-5b60-7402-757a" name="Gorkanaut" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -6128,7 +6128,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d66-5390-cb8e-62e7" name="Lootas" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
