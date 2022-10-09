@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="5" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="13" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -144,7 +144,7 @@
         <entryLink id="1baf-9240-0b42-d0c2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed7d-3992-a081-bc89" name="Gryphonne Pattern Chimera" hidden="false" collective="false" import="true" type="upgrade">
@@ -214,7 +214,7 @@
         <entryLink id="76a1-6d36-73b1-e43a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f34-9156-b29f-76db" name="Artemia Pattern Hellhound Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -266,7 +266,7 @@
             <entryLink id="5dd7-1a03-7eb0-a04f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -319,7 +319,7 @@
             <entryLink id="8822-5d4a-c39f-5255" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -392,7 +392,7 @@
             <entryLink id="876a-e50e-20a6-b375" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -457,7 +457,7 @@
             <entryLink id="fff3-93d6-cfd3-e6f4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -523,7 +523,7 @@
             <entryLink id="0f96-fa27-4709-52a6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -590,7 +590,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c003-0b9a-1ccc-b5e4" name="Ryza Pattern Leman Russ Vanquisher Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -750,7 +750,7 @@
             <entryLink id="b8fc-0f55-00a3-dc0c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -819,7 +819,7 @@
             <entryLink id="c7f6-0079-41de-20b8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -978,7 +978,7 @@
         <entryLink id="e2d0-8bac-0f43-6594" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5dd6-7e44-2b97-25ca" name="Arkurian Pattern Stormsword" hidden="false" collective="false" import="true" type="unit">
@@ -1064,7 +1064,7 @@
         <entryLink id="ac2f-b65c-f8e8-5ed5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e829-7da3-f2b5-c60a" name="Crassus Armoured Assault Vehicle" hidden="false" collective="false" import="true" type="upgrade">
@@ -1239,7 +1239,7 @@
         <entryLink id="9b25-a491-09b9-e2d0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6dc1-cd0e-2928-2d9e" name="Marauder Bomber" hidden="false" collective="false" import="true" type="upgrade">
@@ -1294,7 +1294,7 @@
         <entryLink id="9750-8814-a6ac-cf40" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c55-e10e-8393-0802" name="Marauder Destroyer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1378,7 +1378,7 @@
         <entryLink id="4763-e936-df4c-48e2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcaa-6150-ed1f-54d2" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1487,7 +1487,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="5faa-473e-d901-0db9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6442-06e8-4d19-262c" name="Valdor Tank Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -1633,7 +1633,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="b141-1728-135c-f708" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="107a-d294-7ca1-313e" name="Arvus Lighter Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -1840,7 +1840,7 @@ Praetor Launcher for this action.</characteristic>
             <entryLink id="d556-153a-0a34-d185" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1886,7 +1886,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="9a29-0047-5913-7e4f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6df1-234a-2175-10e6" name="Lord Castellan Creed" hidden="false" collective="false" import="true" type="unit">
@@ -2608,7 +2608,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="98cc-8c05-f5b7-9026" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78a5-c543-5feb-00e1" name="Platoon Commander" hidden="false" collective="false" import="true" type="unit">
@@ -3286,7 +3286,7 @@ Praetor Launcher for this action.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0bd7-038f-d0d1-c8c9" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3304,7 +3304,7 @@ Praetor Launcher for this action.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="902c-6e55-c68a-e0e7" name="9 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3322,7 +3322,7 @@ Praetor Launcher for this action.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3528,7 +3528,7 @@ Praetor Launcher for this action.</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4141,7 +4141,7 @@ Praetor Launcher for this action.</characteristic>
             <entryLink id="8698-3db8-6029-89ee" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4206,7 +4206,7 @@ Praetor Launcher for this action.</characteristic>
             <entryLink id="46c8-888a-be6f-f0fb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4238,19 +4238,19 @@ Praetor Launcher for this action.</characteristic>
         <categoryLink id="8872-0e18-b4fb-85ac" name="Manticore" hidden="false" targetId="fa00-f806-0bac-f213" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fe04-4580-efdd-f297" name="Storm Eagle Rocket" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe04-4580-efdd-f297" name="Storm Eagle Rockets" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928e-18cf-b78a-8067" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8630-af47-3224-97e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928e-18cf-b78a-8067" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8630-af47-3224-97e0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="30e6-9a35-df71-ebbc" name="Storm Eagle Rocket" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="30e6-9a35-df71-ebbc" name="Storm Eagle Rockets" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage</characteristic>
               </characteristics>
             </profile>
@@ -4275,7 +4275,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="58d9-b62f-4bbb-7c1d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="65be-9a08-e178-9ce9" name="Deathstrike" hidden="false" collective="false" import="true" type="unit">
@@ -4336,7 +4336,7 @@ Praetor Launcher for this action.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcfb-a0a0-2210-e019" name="Heavy Weapons Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4417,12 +4417,12 @@ Praetor Launcher for this action.</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3acf-1341-3b68-d402" name="Banehammer" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="3acf-1341-3b68-d402" name="Banehammer (Transport)" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly ASTRA MILITARUM INFANTRY models. Each weapons team model takes the space of 2 other INFANTRY models and each OGRYN model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -4454,10 +4454,10 @@ Praetor Launcher for this action.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Tremor</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Tremor, Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4466,6 +4466,9 @@ Praetor Launcher for this action.</characteristic>
               <description>If a hit roll for an attack made with this weapon against a unit without the Fly keyword is successful, halve that unit’s Move characteristic until the end of that turn.</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="b59c-76c8-4949-8588" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -4508,7 +4511,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="7f90-61ae-81df-56f5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5ec-4e17-536a-efa8" name="Banesword" hidden="false" collective="false" import="true" type="unit">
@@ -4519,7 +4522,7 @@ Praetor Launcher for this action.</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -4547,8 +4550,8 @@ Praetor Launcher for this action.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">140&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
@@ -4599,7 +4602,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="d009-9cd5-a2dd-282f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="779d-7cba-7bd7-c602" name="Doomhammer" hidden="false" collective="false" import="true" type="unit">
@@ -4610,12 +4613,12 @@ Praetor Launcher for this action.</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5e53-fff8-2e5d-6fbd" name="Doomhammer" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="5e53-fff8-2e5d-6fbd" name="Doomhammer (Transport)" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly ASTRA MILITARUM INFANTRY models. Each weapons team model takes the space of 2 other INFANTRY models and each OGRYN model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -4647,9 +4650,9 @@ Praetor Launcher for this action.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">2+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
@@ -4699,18 +4702,18 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="f264-b158-1762-335b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3d2-d938-9c26-701b" name="Hellhammer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0164-a79b-69e3-6571" name="Banesword" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="0164-a79b-69e3-6571" name="Hellhammer" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -4738,13 +4741,16 @@ Praetor Launcher for this action.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="94e7-2455-bf8b-d50b" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -4820,7 +4826,7 @@ Praetor Launcher for this action.</characteristic>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No more than two units can make use of this unit’s Open-topped ability each turn – those units combined can contain no more than 20 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d913-6272-0e64-49ed" name="Stormlord" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="d913-6272-0e64-49ed" name="Stormlord (Transport)" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 40 friendly ASTRA MILITARUM INFANTRY models. Each weapons team model takes the space of 2 other INFANTRY models and each OGRYN model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -4852,8 +4858,8 @@ Praetor Launcher for this action.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">8</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -4900,7 +4906,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="78d4-5687-ab63-dd5b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e581-6d33-956b-efed" name="Taurox" hidden="false" collective="false" import="true" type="unit">
@@ -4948,7 +4954,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="b848-18a9-da76-39e2" name="Pintle Weapon" hidden="false" collective="false" import="true" targetId="a9bf-3be4-80b5-25eb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d89e-5ce7-3c4a-0ca3" name="Taurox Prime" hidden="false" collective="false" import="true" type="unit">
@@ -5103,7 +5109,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="b965-40b6-3406-384b" name="Pintle Weapon" hidden="false" collective="false" import="true" targetId="a9bf-3be4-80b5-25eb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b14-0bb3-dede-b7b4" name="Commissar Severina Raine" hidden="false" collective="false" import="true" type="unit">
@@ -5477,7 +5483,7 @@ Praetor Launcher for this action.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6450,12 +6456,12 @@ Praetor Launcher for this action.</characteristic>
   <sharedProfiles>
     <profile id="0422-c0a5-6f82-4868" name="Officer" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Generate Command Assets step, if this unit is a WARLORD and is on the battlefield, you generate one extra Command Asset.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When placing down order tokens, you may place two order tokens down on two LIGHT units. When activating these units, you select one of these orders to enact.</characteristic>
       </characteristics>
     </profile>
     <profile id="ab92-9606-c265-b3f4" name="Aura of Discipline" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly ASTRA MILITARUM units can use this unit&apos;s Leadership characteristic instead of their own whilst they are within 6&quot; of this unit. </characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly ASTRA MILITARUM units are immune to morale checks while within 3&quot; of this unit. </characteristic>
       </characteristics>
     </profile>
     <profile id="4294-b498-5c24-6842" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ba6e-f4e4-9c13-bd4c" name="Imperium - Adeptus Astartes" revision="5" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ba6e-f4e4-9c13-bd4c" name="Imperium - Adeptus Astartes" revision="9" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -935,7 +935,7 @@
         <entryLink id="b103-9e02-2bb3-8bc6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76ca-309f-3be0-f48b" name="Lieutenant Commander Anton Narvaez" hidden="false" collective="false" import="true" type="unit">
@@ -2199,7 +2199,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d718-7628-fbfa-44c0" name="Shadow Captain Korvydae" hidden="false" collective="false" import="true" type="unit">
@@ -2349,7 +2349,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64c1-f34b-0ef4-3a44" name="Centurion Assault Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2551,131 +2551,6 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9978-d9f2-2780-f55e" name="Ironclad Dreadnought" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="fd37-a4f1-3653-c3cb" name="Ironclad Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <modifiers>
-            <modifier type="set" field="e2a3-fade-c12d-860b" value="2+">
-              <conditions>
-                <condition field="selections" scope="9978-d9f2-2780-f55e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1076-5152-1ed7-93e9" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="26c4-4244-2b74-0cf7" name="Wrecker" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="9978-d9f2-2780-f55e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e5bb-e94d-df2c-ad14" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by this unit with melee weapons if it is equipped with 2 Ironclad Combat Weapons.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="dedd-5ab3-b5d0-466b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="ba4c-4aab-049d-f91c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="4eda-c491-8309-8718" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
-        <categoryLink id="7b18-fc85-722c-e104" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
-        <categoryLink id="98f4-5d7f-9ae4-13f0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="f727-5f38-ca71-087c" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="c77c-9106-3209-5aa1" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
-        <categoryLink id="c7b6-305a-08d0-9b7a" name="Ironclad Dreadnought" hidden="false" targetId="f1a7-1cab-b790-d9a6" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1076-5152-1ed7-93e9" name="Ironclad Assault Launchers" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a38-c483-c8e7-c1cc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fdc5-e008-0b32-9128" name="Ironclad Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-63fb-02de-ca33" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c4e-0d14-46c4-0ed9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4efd-23c8-13b5-3401" name="Dreadnought Combat Weapon" hidden="false" targetId="e199-b982-8946-993d" type="profile">
-              <modifiers>
-                <modifier type="set" field="name" value="Ironclad Combat Weapon"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ccef-5456-fc6a-25f3" name="Mounted weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aaef-d363-02c9-e8aa">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5399-a138-f425-9b7e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ce-31eb-07aa-c034" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="aaef-d363-02c9-e8aa" name="Meltagun" hidden="false" collective="false" import="true" targetId="aa7e-cb86-0ed9-1244" type="selectionEntry"/>
-                <entryLink id="5aaa-8a57-ca94-e89e" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0d3e-2d6c-d24c-dffc" name="Arm swap" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5bb-e94d-df2c-ad14">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3fb-02bf-1269-9bb4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe90-73de-7be4-509f" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e5bb-e94d-df2c-ad14" name="Ironclad Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4882-2f3d-8b90-c5e5" name="Dreadnought Combat Weapon" hidden="false" targetId="e199-b982-8946-993d" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Ironclad Combat Weapon"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="96ca-58ca-0742-aa9f" name="Mounted weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a73f-1bc3-04c3-f993">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea22-b3df-3349-655f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="879d-eae9-cc94-1884" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="a73f-1bc3-04c3-f993" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry"/>
-                    <entryLink id="8267-d52b-f96e-c349" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="1208-e1a1-9956-35c4" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="abd4-677c-38d8-044d" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="7ffc-657f-44c8-cae4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5b0b-6fe2-fb4e-84d9" name="Centurion Devastator Squad" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="e51e-4a91-5927-07eb" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -2852,8 +2727,7 @@
       <profiles>
         <profile id="7aeb-e69c-bce4-f563" name="Thunderfire Cannon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">
-3&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">3&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -2948,7 +2822,7 @@
         <entryLink id="e8b3-fe9c-aaec-c826" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2d3-461e-b2d4-a5ed" name="Honour Guard" hidden="false" collective="false" import="true" type="unit">
@@ -3089,8 +2963,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">
-4+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="1ffe-e941-eed7-a4c7" name="XIII Primarch" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -3179,7 +3052,7 @@
         <entryLink id="6f0a-4c14-5d6c-4789" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4cd-9230-6193-50df" name="Marneus Calgar" hidden="false" collective="false" import="true" type="unit">
@@ -6666,6 +6539,7 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
         <infoLink id="1515-fb58-03c1-aae8" name="Rites of War" hidden="false" targetId="34b8-4aae-34bb-40e0" type="profile"/>
       </infoLinks>
     </entryLink>
+    <entryLink id="3870-356f-862b-0bdb" name="Ironclad Dreadnought" hidden="false" collective="false" import="true" targetId="2ac2-7fbf-e62c-02ca" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile id="55a3-dbc0-205c-8c2a" name="Castellum Stronghold" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
