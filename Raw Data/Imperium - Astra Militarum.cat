@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="13" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="14" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -3918,7 +3918,7 @@ Praetor Launcher for this action.</characteristic>
         <entryLink id="4bf2-5f48-2d5d-65ce" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="1221-ff3c-5f9c-ac4f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee5a-3daf-27d6-6648" name="Conscripts" hidden="false" collective="false" import="true" type="unit">
@@ -3940,30 +3940,12 @@ Praetor Launcher for this action.</characteristic>
           <selectionEntries>
             <selectionEntry id="1ae4-c1d2-cfa3-ee1a" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4be1-8016-2c7e-6ead" name="Conscripts (30 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="4be1-8016-2c7e-6ead" name="Conscripts (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a701-8bf4-1df0-b5d7" name="30 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="67f7-e8e6-ada8-f336" name="Conscripts (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
@@ -3971,7 +3953,25 @@ Praetor Launcher for this action.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a701-8bf4-1df0-b5d7" name="30 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="67f7-e8e6-ada8-f336" name="Conscripts (30 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
