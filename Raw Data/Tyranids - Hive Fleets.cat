@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="9" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="10" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -5576,9 +5576,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ead5-d44c-ab73-fe5a" name="Parasite of Mortrex" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6d-aee6-8041-9656" type="max"/>
-      </constraints>
       <profiles>
         <profile id="7140-5bc9-2b4c-62f3" name="Parasite of Mortrex" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -5628,6 +5625,9 @@
               <description>Enemy units wounded by this attack lose Objective Secured. </description>
             </rule>
           </rules>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
