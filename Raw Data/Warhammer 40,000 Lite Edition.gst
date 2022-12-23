@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5596-906e-5a39-fef7" name="Warhammer 40,000 Lite Edition" revision="6" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5596-906e-5a39-fef7" name="Warhammer 40,000 Lite Edition" revision="7" battleScribeVersion="2.03" authorName="An0maly_519" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse"/>
   </publications>

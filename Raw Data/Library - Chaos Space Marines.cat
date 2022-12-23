@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="14" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="15" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -5542,6 +5542,28 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <categoryLink id="de2f-5041-a28a-15ce" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="c3e6-89c8-b720-ff1b" name="Rubric Marines" hidden="false" targetId="886e-1a90-19c0-9d5a" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="01f1-5858-a32f-f2e6" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0550-8cda-3d08-ec24" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fb29-2be6-d19d-7c36" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a349-bd7b-8564-4e80" name="5 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9848-6d54-efbb-3224">
           <constraints>
@@ -5665,27 +5687,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <infoLinks>
                 <infoLink id="d914-bfcc-87e9-78e3" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="07d3-cc0f-0bb2-e52a" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659c-90bf-48a9-1630" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c75c-4f52-1603-2826" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="4c78-bddc-7751-8724" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>

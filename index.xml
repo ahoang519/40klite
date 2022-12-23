@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Warhammer 40,000 Lite Edition" indexUrl="https://github.com/ahoang519/40klite/raw/master/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warhammer 40,000 Lite Edition.gstz" dataType="gamesystem" dataId="5596-906e-5a39-fef7" dataName="Warhammer 40,000 Lite Edition" dataBattleScribeVersion="2.03" dataRevision="6"/>
+    <dataIndexEntry filePath="Warhammer 40,000 Lite Edition.gstz" dataType="gamesystem" dataId="5596-906e-5a39-fef7" dataName="Warhammer 40,000 Lite Edition" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Chaos - Thousand Sons.catz" dataType="catalogue" dataId="b3f9-0064-26dc-658f" dataName="Chaos - Thousand Sons" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Library - Astra Militarum.catz" dataType="catalogue" dataId="81bf-7fa3-6611-998e" dataName="Library - Astra Militarum" dataBattleScribeVersion="2.03" dataRevision="13"/>
     <dataIndexEntry filePath="Imperium - Adeptus Astartes.catz" dataType="catalogue" dataId="ba6e-f4e4-9c13-bd4c" dataName="Imperium - Adeptus Astartes" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Imperium - Grey Knights.catz" dataType="catalogue" dataId="e73b-e178-8e7f-7ade" dataName="Imperium - Grey Knights" dataBattleScribeVersion="2.03" dataRevision="8"/>
-    <dataIndexEntry filePath="Library - Chaos Space Marines.catz" dataType="catalogue" dataId="6888-3824-ab4f-1868" dataName="Library - Chaos Space Marines" dataBattleScribeVersion="2.03" dataRevision="14"/>
+    <dataIndexEntry filePath="Library - Chaos Space Marines.catz" dataType="catalogue" dataId="6888-3824-ab4f-1868" dataName="Library - Chaos Space Marines" dataBattleScribeVersion="2.03" dataRevision="15"/>
     <dataIndexEntry filePath="Library - Aeldari Weapons.catz" dataType="catalogue" dataId="d311-d4fb-a860-0cf3" dataName="Library - Aeldari Weapons" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Imperium - Deathwatch.catz" dataType="catalogue" dataId="755c-47e1-1715-5ef2" dataName="Imperium - Deathwatch" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Tyranids - Genestealer Cults.catz" dataType="catalogue" dataId="8bfe-a35b-4a37-beb7" dataName="Tyranids - Genestealer Cults" dataBattleScribeVersion="2.03" dataRevision="1"/>
