@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="10" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="14" battleScribeVersion="2.03" authorName="An0maly_519" authorUrl="" library="true" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -796,19 +796,16 @@
       <profiles>
         <profile id="1a7a-d1d3-65d0-e619" name="Hellforged Contemptor Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="807a-ac02-a8f2-ad78" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="02c5-2425-24d9-4e45" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="fd02-2911-baa7-8518" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -820,6 +817,28 @@
         <categoryLink id="684c-bb6e-7b1d-9ee9" name="Hellforged" hidden="false" targetId="5f94-5233-ea4a-23ed" primary="false"/>
         <categoryLink id="53ea-858b-7425-ba02" name="Hellforged Contemptor Dreadnought" hidden="false" targetId="9660-c99f-29c3-a127" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="12bc-529b-c041-d16e" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e225-39b4-3019-2fd2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f351-0d5e-9026-20a9" name="Cyclone Missile Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="492c-d6de-81b4-d13b" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4fbb-eb56-61df-9b8f">
           <constraints>
@@ -836,10 +855,10 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">If equipped with both a chainclaw and deathclaw, you may only select one weapon to attack with per turn in melee</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -856,10 +875,10 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">If equipped with both a chainclaw and deathclaw, you may only select one weapon to attack with per turn in melee</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -867,46 +886,91 @@
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b553-7f6e-1ea5-0706" name="Heavy Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2daf-9764-d91c-7125" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1811-4515-c6c1-4f2e" name="Heavy Plasma Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Supercharge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aaf5-5b65-8457-eb69" name="Twin Volkite Culverin" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c99-17a3-ed5b-f95f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7d50-5154-7a1b-859e" name="Twin Volkite Culverin" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">45&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="9c33-8d0c-47b8-1942" name="Butcher Cannon" hidden="false" collective="false" import="true" targetId="857c-e506-babd-d2da" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d08-66f8-57e8-5e22" type="max"/>
-              </constraints>
-            </entryLink>
             <entryLink id="7949-2923-4959-8c9a" name="C-beam Cannon" hidden="false" collective="false" import="true" targetId="229a-7522-471b-45de" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc3-155f-6882-d90e" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="7983-6546-11f5-3af8" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="4973-6b10-677c-7cc2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4288-912a-fb2d-bdd3" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="452c-0b96-8fa5-51ce" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ecd-eed4-daa8-50d4" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="b9de-6a28-bded-3092" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4484-378f-4539-ab62" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="2e15-acee-cbfb-944e" name="Twin Autocannon" hidden="false" collective="false" import="true" targetId="0cfc-41f8-afb2-2f24" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf6-dc7d-99fa-b8ac" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="bac9-33a4-dd5e-3d78" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45b1-fb53-e8ea-a5dd" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7b72-cf63-acbb-c94f" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" targetId="8e81-49f0-bd2b-f680" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b16-2900-7a9d-45d6" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -939,44 +1003,44 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cbe-1bdd-b144-cf7a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d5cf-f400-099e-c3e2" name="Ectoplasma Blaster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d5cf-f400-099e-c3e2" name="Hellforged Plasma Blaster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9179-a541-b30b-e11a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a460-9f93-66be-f7e0" name="Ectoplasma Blaster" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                <profile id="a460-9f93-66be-f7e0" name="Hellforged Plasma Blaster" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small-arms</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Supercharge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6e2-6833-a010-c8c3" name="Graviton Blaster" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd7-ff72-c3ea-3ace" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="13ba-09bf-ca42-aa0d" name="Graviton Blaster" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small-arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7cb6-f5d2-0c3b-5e7b" name="Soulburner" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="685e-93b6-b3d0-8b8e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5397-0ce0-6be4-b548" name="Soulburner" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -994,16 +1058,14 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba4-f165-b719-b4a2" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="063b-bb3d-5254-ea9e" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="a07d-031c-6cd1-7a23" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4248-82cb-5ae3-4ecd" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="29df-dc49-78e8-3434" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="3627-6f4b-6f82-b078" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e53b-ab79-fb59-1eb3" value="1.0">
@@ -1035,7 +1097,7 @@
         <entryLink id="0136-29d3-814e-2a4a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f06-66b9-535a-fb5d" name="Hellflamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5491,7 +5553,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <profiles>
                 <profile id="4d80-7c62-8d89-cb86" name="Rubric Marines (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -5509,7 +5571,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <profiles>
                 <profile id="0f1e-5a06-3782-644d" name="Rubric Marines (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
@@ -5527,7 +5589,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <profiles>
                 <profile id="8fae-b1ab-69ce-f599" name="Rubric Marines (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -5545,7 +5607,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <profiles>
                 <profile id="5a5c-39b6-3109-319b" name="Rubric Marines (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -5594,8 +5656,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
                   </characteristics>
                 </profile>
@@ -6044,10 +6106,10 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
     <profile id="e372-2fcd-d26f-8b15" name="Hellflamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
       <characteristics>
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
+        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
         <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
       </characteristics>
     </profile>

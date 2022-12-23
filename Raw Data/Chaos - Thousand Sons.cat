@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3f9-0064-26dc-658f" name="Chaos - Thousand Sons" revision="9" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3f9-0064-26dc-658f" name="Chaos - Thousand Sons" revision="11" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="5596-906e-5a39-fef7" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="042b-9cd7-f7fa-78e0" name="Warp Vortex - D3 Roll">
       <characteristicTypes>
@@ -197,7 +197,11 @@
     <entryLink id="deb6-c04f-49af-798e" name="Exalted Sorcerer" hidden="false" collective="false" import="true" targetId="453b-b240-c01f-7392" type="selectionEntry"/>
     <entryLink id="8ae0-c975-cd3c-185b" name="Sorcerer" hidden="false" collective="false" import="true" targetId="1dab-bb81-d853-d9ed" type="selectionEntry">
       <modifiers>
-        <modifier type="increment" field="1466-da3f-0d27-dace" value="1.0"/>
+        <modifier type="increment" field="1466-da3f-0d27-dace" value="1.0">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3f9-0064-26dc-658f" type="instanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="a61d-578b-bacb-f2b6" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
@@ -228,6 +232,11 @@
     <entryLink id="34cc-9662-e00c-728b" name="Rubric Marines" hidden="false" collective="false" import="true" targetId="245e-1cea-9d5d-0e2a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3f9-0064-26dc-658f" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="1466-da3f-0d27-dace" value="1.0">
           <conditions>
             <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3f9-0064-26dc-658f" type="instanceOf"/>
           </conditions>
@@ -315,6 +324,11 @@
     </entryLink>
     <entryLink id="1e83-fe1d-ebb1-aa19" name="Magnus the Red" hidden="false" collective="false" import="true" targetId="c147-5621-32d7-ae8b" type="selectionEntry"/>
   </entryLinks>
+  <rules>
+    <rule id="b8ea-44b6-b8e6-d6d7" name="Masters of Sorcery" hidden="false">
+      <description>Add +1 to the wound roll for Psychic Attacks. In addition, you may ignore the Smite rule and target any enemy unit within range and line of sight.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="f783-3b8c-244e-2784" name="Ahriman" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -389,7 +403,7 @@
         <entryLink id="44d0-1809-b716-cf40" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3cf6-55a7-799a-93d8" name="Daemon Prince of Tzeentch" hidden="false" collective="false" import="true" type="unit">
@@ -470,7 +484,7 @@
         <entryLink id="2cdd-a1b2-419b-1850" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="453b-b240-c01f-7392" name="Exalted Sorcerer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1060,7 +1074,7 @@
               <profiles>
                 <profile id="60a2-117d-a26f-25ee" name="Scarab Occult Terminators (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -1071,14 +1085,14 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bb7c-79e1-5978-7470" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="c7ad-1fe9-a8d9-bbae" name="Scarab Occult Terminators (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -1089,7 +1103,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1630,7 +1644,7 @@
         <entryLink id="4c61-a05e-d947-3593" name="Psychic Attack" hidden="false" collective="false" import="true" targetId="147d-bf79-db70-78dc" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
